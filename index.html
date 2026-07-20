@@ -1,0 +1,1733 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AYMAR — Trade with precision. Profit with vision.</title>
+  </head>
+  <body>
+    <div id="loading-screen">
+      <div class="loader-mark">AYMAR</div>
+      <div class="loader-track"><div class="loader-fill"></div></div>
+      <div class="loader-pct">0%</div>
+    </div>
+
+    <nav id="site-nav">
+      <div id="site-nav-menu">
+        <ul id="site-nav-list">
+          <li><a href="#home" class="site-nav-link" data-view="home">Home</a></li>
+          <li><a href="#about" class="site-nav-link" data-view="about">About</a></li>
+          <li><a href="#engines" class="site-nav-link" data-view="engines">Engines</a></li>
+          <li><a href="#backtests" class="site-nav-link" data-view="backtests">Backtests</a></li>
+          <li><a href="#live-data" class="site-nav-link" data-view="livedata">Live Data</a></li>
+          <li><a href="#roadmap" class="site-nav-link" data-view="roadmap">Roadmap</a></li>
+          <li><a href="#contact-support" class="site-nav-link" data-view="contact">FAQ &amp; Support</a></li>
+        </ul>
+      </div>
+      <button id="site-nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg class="icon-burger" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M3 12h18M3 18h18" /></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12" /></svg>
+      </button>
+    </nav>
+
+    <div id="view-home">
+      <div id="home-main-row">
+      <div id="home-hero">
+        <video id="home-hero-img" autoplay muted loop playsinline src="/home-hero-smoke.mp4"></video>
+        <div id="home-hero-fade"></div>
+        <div id="home-hero-copy">
+          <h1 id="home-hero-title">
+            TRADE WITH PRECISION.<br />
+            <span class="hl-green">PROFIT</span> WITH <span class="hl-red">VISION.</span>
+          </h1>
+          <p id="home-hero-sub">AI-Powered Strategy Engines <span>|</span> Real-time Data <span>|</span> Backtested Precision</p>
+          <div id="home-app-badges">
+            <a href="#" class="home-app-badge" aria-label="Download on the App Store">
+              <svg viewBox="0 0 384 512" fill="currentColor"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+              <span><small>Download on the</small><strong>App Store</strong></span>
+            </a>
+            <a href="#" class="home-app-badge" aria-label="Get it on Google Play">
+              <svg viewBox="0 0 512 512"><path fill="#00d2ff" d="M99.6 42.3c-6.5 6.8-10.3 17.3-10.3 31v365.4c0 13.7 3.8 24.2 10.4 30.9l1.6 1.5L312.6 258V253L101.2 40.7Z"/><path fill="#00f076" d="m384.2 330.3-71.6-71.7v-5l71.7-71.7 1.6 1L470.2 229c25.5 14.5 25.5 38.1 0 52.6l-84.4 46.6Z"/><path fill="#ff3a44" d="M384.2 330.2 312.6 258.5 99.6 471.6c7.9 8.4 21 9.4 35.6 1.1l249-141.5"/><path fill="#ffcf00" d="M384.2 186.7 135.2 45.3c-14.6-8.3-27.7-7.3-35.6 1.1l212.9 213.1Z"/></svg>
+              <span><small>GET IT ON</small><strong>Google Play</strong></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div id="home-signup">
+        <a href="#" id="home-signup-login-btn">Login</a>
+        <img src="/aymar-word-logo.png" alt="AYMAR" id="home-signup-logo" />
+        <h2 id="home-signup-title">CREATE YOUR ACCOUNT</h2>
+        <p id="home-signup-sub">Join AYMAR and experience next-gen trading technology.</p>
+
+        <form id="home-signup-form">
+          <div id="home-signup-fields">
+          <div class="home-field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>
+            <input type="text" placeholder="Full Name" autocomplete="name" required />
+          </div>
+          <div class="home-field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 6-10 7L2 6" /></svg>
+            <input type="email" placeholder="Email Address" autocomplete="email" required />
+          </div>
+          <div class="home-field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.4 2.6a2 2 0 0 0-2.8 0L2.6 10.6a2 2 0 0 0 0 2.8l8 8a2 2 0 0 0 2.8 0l8-8a2 2 0 0 0 0-2.8Z" /><path d="M15 9h.01" /></svg>
+            <input type="tel" placeholder="Phone Number" autocomplete="tel" required />
+          </div>
+          <div class="home-field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2" /><path d="M8 11V7a4 4 0 0 1 8 0v4" /></svg>
+            <input type="password" class="home-password-input" placeholder="Create Password" autocomplete="new-password" required />
+            <button type="button" class="home-eye" aria-label="Show password">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z" /><circle cx="12" cy="12" r="3" /></svg>
+            </button>
+          </div>
+          <div class="home-field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2" /><path d="M8 11V7a4 4 0 0 1 8 0v4" /></svg>
+            <input type="password" class="home-password-input" placeholder="Confirm Password" autocomplete="new-password" required />
+            <button type="button" class="home-eye" aria-label="Show password">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z" /><circle cx="12" cy="12" r="3" /></svg>
+            </button>
+          </div>
+
+          <label id="home-terms">
+            <input type="checkbox" required />
+            <span>I agree to the <a href="#" data-view="terms" class="legal-nav-link">Terms &amp; Conditions</a> and <a href="#" data-view="risk" class="legal-nav-link">Risk Disclosure</a></span>
+          </label>
+
+          <button type="submit" id="home-register-btn">Register Now</button>
+
+          <div class="home-divider"><span>OR</span></div>
+
+          <button type="button" id="home-google-btn">
+            <svg viewBox="0 0 48 48" width="18" height="18">
+              <path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.3 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.1 8 3l6-6C33.9 5.6 29.2 3.5 24 3.5 12.7 3.5 3.5 12.7 3.5 24S12.7 44.5 24 44.5 44.5 35.3 44.5 24c0-1.3-.1-2.6-.4-3.9Z" />
+              <path fill="#FF3D00" d="m6.3 14.6 6.6 4.8C14.6 15.6 18.9 12 24 12c3.1 0 5.8 1.1 8 3l6-6C33.9 5.6 29.2 3.5 24 3.5c-7.6 0-14.2 4.3-17.7 10.6Z" />
+              <path fill="#4CAF50" d="M24 44.5c5.1 0 9.8-1.9 13.3-5.1l-6.2-5.2c-2 1.4-4.5 2.3-7.1 2.3-5.3 0-9.7-3.3-11.3-8l-6.5 5C9.7 40.1 16.3 44.5 24 44.5Z" />
+              <path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.3-2.3 4.3-4.2 5.7l6.2 5.2C40.9 36 44.5 30.7 44.5 24c0-1.3-.1-2.6-.4-3.9Z" />
+            </svg>
+            Continue with Google
+          </button>
+
+          </div>
+        </form>
+
+        <form id="home-login-form" hidden>
+          <div id="home-login-fields">
+            <div class="home-field">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>
+              <input type="text" placeholder="Username" autocomplete="username" required />
+            </div>
+            <div class="home-field">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2" /><path d="M8 11V7a4 4 0 0 1 8 0v4" /></svg>
+              <input type="password" class="home-password-input" placeholder="Password" autocomplete="current-password" required />
+              <button type="button" class="home-eye" aria-label="Show password">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z" /><circle cx="12" cy="12" r="3" /></svg>
+              </button>
+            </div>
+
+            <button type="submit" id="home-login-submit-btn">Login</button>
+          </div>
+
+          <p id="home-login-switch">New to AYMAR? <a href="#" id="home-login-to-register">Create an account</a></p>
+        </form>
+
+        <div id="home-signup-success" hidden>
+          <div id="home-success-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></svg>
+          </div>
+          <h3 id="home-success-title">REGISTRATION <span>SUCCESSFUL!</span></h3>
+          <p id="home-success-sub">Thank you for joining AYMAR. Our team will contact you soon with the next steps.</p>
+          <div id="home-success-email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 6-10 7L2 6" /></svg>
+            <span>Please check your <a href="#">email</a> for important information.</span>
+          </div>
+          <a href="#" id="home-success-download">
+            DOWNLOAD AYMAR FOR FREE
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12" /><path d="m7 10 5 5 5-5" /><path d="M5 21h14" /></svg>
+          </a>
+          <p id="home-success-help">Need help? Contact our <a href="#">support</a> team.</p>
+          <a href="#" id="home-success-back" class="home-back-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7" /><path d="M19 12H5" /></svg>
+            Back
+          </a>
+        </div>
+
+        <div id="home-login-success" hidden>
+          <div id="home-login-success-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></svg>
+          </div>
+          <h3 id="home-login-success-title">WELCOME BACK, <span id="home-login-username"></span>!</h3>
+          <a href="#" id="home-login-download">
+            DOWNLOAD AYMAR FOR FREE
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12" /><path d="m7 10 5 5 5-5" /><path d="M5 21h14" /></svg>
+          </a>
+          <a href="#" id="home-login-success-back" class="home-back-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7" /><path d="M19 12H5" /></svg>
+            Back
+          </a>
+        </div>
+
+        <div class="home-divider home-divider-small"><span>Join our community</span></div>
+
+        <div id="home-social-row">
+          <a href="https://www.instagram.com/aymartradingbot?igsh=MWFxNGd1NXNuMDNmeg==" target="_blank" rel="noopener" class="home-social home-social-ig" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><path d="M17.5 6.5h.01" /></svg>
+          </a>
+          <a href="https://x.com/Aymartradingbot" target="_blank" rel="noopener" class="home-social home-social-x" aria-label="X (Twitter)">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-7.2l-5.6-7.3L4 22H1l8.2-9.3L0.9 2h7.4l5 6.7L18.9 2zm-1.2 18h2L6.4 4H4.3l13.4 16z" /></svg>
+          </a>
+          <a href="#" class="home-social home-social-wa" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2Zm0 18.02h-.01a8.1 8.1 0 0 1-4.14-1.13l-.3-.18-3.14.82.84-3.06-.19-.31a8.1 8.1 0 0 1-1.25-4.34c0-4.48 3.65-8.13 8.14-8.13 2.17 0 4.21.85 5.75 2.38a8.07 8.07 0 0 1 2.38 5.75c0 4.48-3.65 8.14-8.14 8.14Zm4.46-6.09c-.24-.12-1.45-.71-1.67-.8-.22-.08-.39-.12-.55.12-.16.24-.63.79-.78.96-.14.16-.29.18-.53.06-.24-.12-1.01-.37-1.93-1.19-.71-.63-1.19-1.42-1.33-1.66-.14-.24-.02-.37.11-.5.11-.11.24-.29.36-.43.12-.14.16-.24.24-.4.08-.16.04-.31-.02-.43-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.04 0 1.2.88 2.36 1 2.52.12.16 1.73 2.64 4.19 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.55.1.47-.07 1.45-.59 1.66-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28Z" />
+          </a>
+          <a href="#" class="home-social home-social-tg" aria-label="Telegram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.05 3.44 2.7 11.05c-1.34.54-1.33 1.3-.24 1.63l4.95 1.54 1.92 5.83c.23.63.12.88.78.88.5 0 .73-.23 1-.5l2.4-2.33 4.99 3.68c.92.51 1.58.24 1.81-.85l3.27-15.4c.34-1.33-.5-1.93-1.53-1.49ZM7.42 13.9l11.6-7.28c.55-.33 1.05-.15.64.21L9.9 15.6l-.36 3.89-1.6-5.6Z" /></svg>
+          </a>
+        </div>
+      </div>
+      </div>
+
+      <footer id="home-footer">
+        <nav id="home-footer-links">
+          <a href="#" data-view="terms" class="legal-nav-link">Terms &amp; Conditions</a>
+          <span class="home-footer-dot">&bull;</span>
+          <a href="#" data-view="privacy" class="legal-nav-link">Privacy Policy</a>
+          <span class="home-footer-dot">&bull;</span>
+          <a href="#" data-view="risk" class="legal-nav-link">Risk Disclosure</a>
+          <span class="home-footer-dot">&bull;</span>
+          <a href="#" data-view="disclaimer" class="legal-nav-link">Disclaimer</a>
+          <span class="home-footer-dot">&bull;</span>
+          <a href="#" data-view="refund" class="legal-nav-link">Refund Policy (if applicable)</a>
+        </nav>
+        <div id="home-footer-copyright">&copy; 2026 AYMAR. All rights reserved.</div>
+      </footer>
+    </div>
+
+    <div id="view-placeholder">
+      <span class="view-placeholder-eyebrow">Coming soon</span>
+      <h2 class="view-placeholder-title">Engines</h2>
+    </div>
+
+    <div id="view-livedata">
+      <video id="ld2-bg-video" autoplay muted loop playsinline src="/matrix-2-bg.mp4"></video>
+      <div id="ld2-bg-overlay"></div>
+
+      <h2 class="ld2-heading">What if you have invested in <img src="/aymar-name-only-logo.png" alt="AYMAR" class="ld2-heading-logo" /></h2>
+
+      <div class="ld2-fx-bar">
+        <div class="ld2-fx-field" data-field="amount">
+          <label class="ld2-fx-label">INVESTMENT AMOUNT</label>
+          <button type="button" class="ld2-fx-select">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12" /><path d="M6 8h12" /><path d="m6 13 8.5 8" /><path d="M6 13h3c5 0 5-5 0-5H6" /></svg>
+            <span class="ld2-fx-value">1 L</span>
+            <svg class="ld2-fx-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6" /></svg>
+          </button>
+          <div class="ld2-fx-options">
+            <div class="ld2-fx-option" data-value="50 K" data-tier="T50K">50 K</div>
+            <div class="ld2-fx-option" data-value="75 K" data-tier="T75K">75 K</div>
+            <div class="ld2-fx-option is-selected" data-value="1 L" data-tier="T1L">1 L</div>
+            <div class="ld2-fx-option" data-value="1.5 L" data-tier="T1_5L">1.5 L</div>
+            <div class="ld2-fx-option" data-value="2 L" data-tier="T2L">2 L</div>
+            <div class="ld2-fx-option" data-value="2.5 L" data-tier="T2_5L">2.5 L</div>
+            <div class="ld2-fx-option" data-value="3 L" data-tier="T3L">3 L</div>
+            <div class="ld2-fx-option" data-value="3.5 L" data-tier="T3_5L">3.5 L</div>
+            <div class="ld2-fx-option" data-value="4 L" data-tier="T4L">4 L</div>
+            <div class="ld2-fx-option" data-value="4.5 L" data-tier="T4_5L">4.5 L</div>
+            <div class="ld2-fx-option" data-value="5 L" data-tier="T5L">5 L</div>
+          </div>
+        </div>
+
+        <div class="ld2-fx-field" data-field="month">
+          <label class="ld2-fx-label">MONTH</label>
+          <button type="button" class="ld2-fx-select">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" /><path d="M16 2v4" /><path d="M8 2v4" /><path d="M3 10h18" /></svg>
+            <span class="ld2-fx-value">July</span>
+            <svg class="ld2-fx-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6" /></svg>
+          </button>
+          <div class="ld2-fx-options">
+            <div class="ld2-fx-option" data-value="January">January</div>
+            <div class="ld2-fx-option" data-value="February">February</div>
+            <div class="ld2-fx-option" data-value="March">March</div>
+            <div class="ld2-fx-option" data-value="April">April</div>
+            <div class="ld2-fx-option" data-value="May">May</div>
+            <div class="ld2-fx-option" data-value="June">June</div>
+            <div class="ld2-fx-option is-selected" data-value="July">July</div>
+            <div class="ld2-fx-option" data-value="August">August</div>
+            <div class="ld2-fx-option" data-value="September">September</div>
+            <div class="ld2-fx-option" data-value="October">October</div>
+            <div class="ld2-fx-option" data-value="November">November</div>
+            <div class="ld2-fx-option" data-value="December">December</div>
+          </div>
+        </div>
+
+        <div class="ld2-fx-field" data-field="year">
+          <label class="ld2-fx-label">YEAR</label>
+          <button type="button" class="ld2-fx-select">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" /><path d="M16 2v4" /><path d="M8 2v4" /><path d="M3 10h18" /></svg>
+            <span class="ld2-fx-value">2026</span>
+            <svg class="ld2-fx-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6" /></svg>
+          </button>
+          <div class="ld2-fx-options">
+            <div class="ld2-fx-option is-selected" data-value="2026">2026</div>
+            <div class="ld2-fx-option" data-value="2027">2027</div>
+            <div class="ld2-fx-option" data-value="2028">2028</div>
+            <div class="ld2-fx-option" data-value="2029">2029</div>
+            <div class="ld2-fx-option" data-value="2030">2030</div>
+            <div class="ld2-fx-option" data-value="2031">2031</div>
+            <div class="ld2-fx-option" data-value="2032">2032</div>
+            <div class="ld2-fx-option" data-value="2033">2033</div>
+            <div class="ld2-fx-option" data-value="2034">2034</div>
+            <div class="ld2-fx-option" data-value="2035">2035</div>
+          </div>
+        </div>
+
+        <button type="button" class="ld2-fx-apply">
+          APPLY
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></svg>
+        </button>
+      </div>
+
+      <div class="ld2-row">
+        <!-- TODAY -->
+        <div class="ld2-card">
+          <div class="ld2-header">
+            <div class="ld2-header-title ld2-header-green">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 7-8.5 8.5-5-5L2 17" /><path d="M16 7h6v6" /></svg>
+              <div class="ld2-header-title-text">
+                <h3>TODAY</h3>
+                <span class="ld2-header-underline"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="ld2-tile-grid">
+            <div class="ld2-tile">
+              <div class="ld2-tile-icon ld2-icon-green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 7-8.5 8.5-5-5L2 17" /><path d="M16 7h6v6" /></svg></div>
+              <div class="ld2-tile-label">NET P&amp;L</div>
+              <div class="ld2-tile-value ld2-green" id="ld2-today-pnl">Rs 0</div>
+            </div>
+            <div class="ld2-tile">
+              <div class="ld2-tile-icon ld2-icon-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" /></svg></div>
+              <div class="ld2-tile-label">WIN RATE</div>
+              <div class="ld2-tile-value" id="ld2-today-winrate">0%</div>
+            </div>
+            <div class="ld2-tile">
+              <div class="ld2-tile-icon ld2-icon-cyan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m17 2 4 4-4 4" /><path d="M3 11V9a4 4 0 0 1 4-4h14" /><path d="m7 22-4-4 4-4" /><path d="M21 13v2a4 4 0 0 1-4 4H3" /></svg></div>
+              <div class="ld2-tile-label">TRADES</div>
+              <div class="ld2-tile-value" id="ld2-today-trades">0</div>
+            </div>
+            <div class="ld2-tile">
+              <div class="ld2-tile-icon ld2-icon-purple"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" /></svg></div>
+              <div class="ld2-tile-label">DAY STATUS</div>
+              <div class="ld2-tile-value" id="ld2-today-status">FLAT</div>
+            </div>
+          </div>
+
+          <div class="ld2-tile ld2-tile-wide">
+            <div class="ld2-tile-icon ld2-icon-green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4" /><path d="M3 5v14a2 2 0 0 0 2 2h16v-5" /><path d="M18 12a2 2 0 0 0 0 4h4v-4Z" /></svg></div>
+            <div>
+              <div class="ld2-tile-label">CAPITAL</div>
+              <div class="ld2-tile-value ld2-green" id="ld2-today-capital">Rs 0</div>
+            </div>
+          </div>
+
+          <div class="ld2-chart-box">
+            <div class="ld2-chart-empty" id="ld2-today-chart-msg">No trading days in this range yet.</div>
+          </div>
+
+          <div class="ld2-footer-strip">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></svg>
+            <div>
+              <div class="ld2-footer-title">STAY DISCIPLINED</div>
+              <div class="ld2-footer-sub">Trade the plan, not the moment.</div>
+            </div>
+          </div>
+
+          <div class="ld2-tradebook">
+            <div class="ld2-tradebook-scroll">
+              <table>
+                <thead>
+                  <tr>
+                    <th>S.No</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Symbol</th>
+                    <th>Entry</th>
+                    <th>Exit</th>
+                    <th>P&amp;L</th>
+                    <th>Qty</th>
+                  </tr>
+                </thead>
+                <tbody id="ld2-tradebook-body">
+                  <tr>
+                    <td colspan="8" class="ld2-tradebook-empty">No trades in this range.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- PERFORMANCE SUMMARY -->
+        <div class="ld2-card">
+          <div class="ld2-header">
+            <div class="ld2-header-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18" /><path d="M18.4 8.6 13 14l-3-3-4.6 4.6" /></svg>
+              <div class="ld2-header-title-text">
+                <h3>PERFORMANCE SUMMARY</h3>
+                <span class="ld2-header-underline"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="ld2-total">
+            <div class="ld2-total-label">TOTAL P&amp;L</div>
+            <div class="ld2-total-value ld2-green" id="ld2-perf-pnl">Rs 0</div>
+          </div>
+
+          <div class="ld2-mini-grid">
+            <div class="ld2-mini">
+              <div class="ld2-mini-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2h6l1 4H8Z" /><path d="M5 6h14l-1 14H6Z" /><path d="M9 10h6" /><path d="M9 14h6" /></svg></div>
+              <div>
+                <div class="ld2-mini-label">Total Trades</div>
+                <div class="ld2-mini-value" id="ld2-perf-trades">0</div>
+              </div>
+            </div>
+            <div class="ld2-mini">
+              <div class="ld2-mini-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></svg></div>
+              <div>
+                <div class="ld2-mini-label">Win Rate</div>
+                <div class="ld2-mini-value" id="ld2-perf-winrate">0%</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ld2-ring-row">
+            <span class="ld2-ring-wins" id="ld2-ring-wins">0 WINS</span>
+
+            <div class="ld2-ring-wrap progress-ring-wrap">
+            <svg width="220" height="220" viewBox="0 0 220 220" style="overflow: visible">
+              <defs>
+                <linearGradient id="ld2-ring-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#4ADE80" />
+                  <stop offset="50%" stop-color="#22C55E" />
+                  <stop offset="100%" stop-color="#16A34A" />
+                </linearGradient>
+                <linearGradient id="ld2-ring-redgrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#F87171" />
+                  <stop offset="50%" stop-color="#EF4444" />
+                  <stop offset="100%" stop-color="#B91C1C" />
+                </linearGradient>
+                <radialGradient id="ld2-ring-center" cx="50%" cy="42%" r="65%">
+                  <stop offset="0%" stop-color="#101827" />
+                  <stop offset="100%" stop-color="#0B1220" />
+                </radialGradient>
+                <filter id="ld2-ring-glow" filterUnits="userSpaceOnUse" x="-80" y="-80" width="380" height="380">
+                  <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="rgba(34,197,94,0.9)" />
+                  <feDropShadow dx="0" dy="0" stdDeviation="26" flood-color="rgba(34,197,94,0.35)" />
+                </filter>
+                <filter id="ld2-ring-redglow" filterUnits="userSpaceOnUse" x="-80" y="-80" width="380" height="380">
+                  <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="rgba(239,68,68,0.9)" />
+                  <feDropShadow dx="0" dy="0" stdDeviation="26" flood-color="rgba(239,68,68,0.35)" />
+                </filter>
+                <filter id="ld2-ring-bloom" filterUnits="userSpaceOnUse" x="-80" y="-80" width="380" height="380">
+                  <feGaussianBlur stdDeviation="10" />
+                </filter>
+                <filter id="ld2-ring-redbloom" filterUnits="userSpaceOnUse" x="-80" y="-80" width="380" height="380">
+                  <feGaussianBlur stdDeviation="10" />
+                </filter>
+              </defs>
+
+              <circle cx="110" cy="110" r="82" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="18" />
+
+              <circle id="ld2-ring-redbloom" class="ring-bloom" cx="110" cy="110" r="82" fill="none" stroke="url(#ld2-ring-redgrad)" stroke-width="24"
+                stroke-dasharray="515.221" stroke-dashoffset="515.221" transform="rotate(-90 110 110)" filter="url(#ld2-ring-redbloom)" />
+              <circle id="ld2-ring-red" cx="110" cy="110" r="82" fill="none" stroke="url(#ld2-ring-redgrad)" stroke-width="18"
+                stroke-dasharray="515.221" stroke-dashoffset="515.221" transform="rotate(-90 110 110)" filter="url(#ld2-ring-redglow)" />
+
+              <circle id="ld2-ring-greenbloom" class="ring-bloom" cx="110" cy="110" r="82" fill="none" stroke="url(#ld2-ring-grad)" stroke-width="24" stroke-linecap="round"
+                stroke-dasharray="515.221" stroke-dashoffset="515.221" transform="rotate(-90 110 110)" filter="url(#ld2-ring-bloom)" />
+              <circle id="ld2-ring-green" cx="110" cy="110" r="82" fill="none" stroke="url(#ld2-ring-grad)" stroke-width="18" stroke-linecap="round"
+                stroke-dasharray="515.221" stroke-dashoffset="515.221" transform="rotate(-90 110 110)" filter="url(#ld2-ring-glow)" />
+
+              <circle id="ld2-ring-gloss" cx="110" cy="110" r="82" fill="none" stroke="white" stroke-width="2" opacity="0.35" transform="rotate(-90 110 110)" />
+
+              <circle id="ld2-ring-shine-a" r="3" fill="white" opacity="0.9"></circle>
+              <circle id="ld2-ring-shine-b" r="3" fill="white" opacity="0.75"></circle>
+
+              <circle cx="110" cy="110" r="65" fill="url(#ld2-ring-center)" />
+            </svg>
+            <div class="ld2-ring-label">
+              <span class="ld2-ring-num" id="ld2-ring-num">0</span>
+            </div>
+            </div>
+
+            <span class="ld2-ring-losses" id="ld2-ring-losses">0 LOSSES</span>
+          </div>
+
+          <div class="ld2-mini-grid ld2-dd-pf-row">
+            <div class="ld2-mini">
+              <div class="ld2-tile-icon ld2-icon-red"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 17 13.5 8.5 8.5 13.5 2 7" /><path d="M16 17h6v-6" /></svg></div>
+              <div>
+                <div class="ld2-mini-label">Max Drawdown</div>
+                <div class="ld2-mini-value ld2-red" id="ld2-perf-drawdown">Rs 0 (0%)</div>
+              </div>
+            </div>
+            <div class="ld2-mini ld2-tile-reverse">
+              <div class="ld2-tile-icon ld2-icon-green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 7-8.5 8.5-5-5L2 17" /><path d="M16 7h6v6" /></svg></div>
+              <div>
+                <div class="ld2-mini-label">Profit Factor</div>
+                <div class="ld2-mini-value ld2-green" id="ld2-perf-pf">--</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ld2-footer-strip ld2-footer-gold">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 4 4 3 6-5 6 5 4-3-2 12H4Z" /><path d="M4 20h16" /></svg>
+            <div>
+              <div class="ld2-footer-title">CONSISTENCY IS THE KEY TO SUCCESS</div>
+              <div class="ld2-footer-sub">Stay consistent. Keep an edge.</div>
+            </div>
+          </div>
+
+          <div class="ld2-cal-box">
+            <div class="ld2-cal-head">
+              <div class="ld2-cal-month" id="ld2-cal-month">July 2026</div>
+              <div class="ld2-cal-legend">
+                <span><i class="ld2-dot ld2-dot-green"></i>Profit</span>
+                <span><i class="ld2-dot ld2-dot-red"></i>Loss</span>
+                <span><i class="ld2-dot ld2-dot-gray"></i>No trade</span>
+              </div>
+            </div>
+            <div class="ld2-cal-body">
+              <div class="ld2-cal-daylabels">
+                <span>MON</span><span>TUE</span><span>WED</span><span>THU</span><span>FRI</span>
+              </div>
+              <!-- Weeks are columns, Mon-Fri are rows - same grid-column/grid-row
+                   placement the real PnlCalendarHeatmap uses, so a short first/last
+                   week (July 2026 starts on a Wednesday) leaves genuine blank cells
+                   rather than reflowing the rest of the month. -->
+              <div class="ld2-cal-grid" id="ld2-cal-grid" style="grid-template-columns: repeat(5, 1fr);">
+                <div class="ld2-cal-cell" style="grid-column: 2; grid-row: 1;"><span class="ld2-cal-daynum">6</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 3; grid-row: 1;"><span class="ld2-cal-daynum">13</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 4; grid-row: 1;"><span class="ld2-cal-daynum">20</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 5; grid-row: 1;"><span class="ld2-cal-daynum">27</span></div>
+
+                <div class="ld2-cal-cell" style="grid-column: 2; grid-row: 2;"><span class="ld2-cal-daynum">7</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 3; grid-row: 2;"><span class="ld2-cal-daynum">14</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 4; grid-row: 2;"><span class="ld2-cal-daynum">21</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 5; grid-row: 2;"><span class="ld2-cal-daynum">28</span></div>
+
+                <div class="ld2-cal-cell" style="grid-column: 1; grid-row: 3;"><span class="ld2-cal-daynum">1</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 2; grid-row: 3;"><span class="ld2-cal-daynum">8</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 3; grid-row: 3;"><span class="ld2-cal-daynum">15</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 4; grid-row: 3;"><span class="ld2-cal-daynum">22</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 5; grid-row: 3;"><span class="ld2-cal-daynum">29</span></div>
+
+                <div class="ld2-cal-cell" style="grid-column: 1; grid-row: 4;"><span class="ld2-cal-daynum">2</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 2; grid-row: 4;"><span class="ld2-cal-daynum">9</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 3; grid-row: 4;"><span class="ld2-cal-daynum">16</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 4; grid-row: 4;"><span class="ld2-cal-daynum">23</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 5; grid-row: 4;"><span class="ld2-cal-daynum">30</span></div>
+
+                <div class="ld2-cal-cell" style="grid-column: 1; grid-row: 5;"><span class="ld2-cal-daynum">3</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 2; grid-row: 5;"><span class="ld2-cal-daynum">10</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 3; grid-row: 5;"><span class="ld2-cal-daynum">17</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 4; grid-row: 5;"><span class="ld2-cal-daynum">24</span></div>
+                <div class="ld2-cal-cell" style="grid-column: 5; grid-row: 5;"><span class="ld2-cal-daynum">31</span></div>
+              </div>
+            </div>
+            <div class="ld2-cal-footer">
+              <div><span class="ld2-cal-footer-label">Profit</span><span class="ld2-green" id="ld2-cal-profit">Rs 0</span></div>
+              <div><span class="ld2-cal-footer-label">Loss</span><span class="ld2-red" id="ld2-cal-loss">Rs 0</span></div>
+              <div><span class="ld2-cal-footer-label">Trades</span><span id="ld2-cal-trades">0</span></div>
+              <div><span class="ld2-cal-footer-label">Realised P&amp;L</span><span id="ld2-cal-realised">Rs 0</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="view-roadmap">
+      <img id="roadmap-final-img" src="/roadmap-final.webp" alt="AYMAR roadmap: NIFTY Options available now; Bank Nifty, Sensex, Multi-Broker Support, Portfolio analysis and build, Cloud Sync, and Commodity Trading coming soon" />
+    </div>
+
+    <div id="view-contact">
+      <video id="contact-bg-video" autoplay muted loop playsinline src="/faq-bg.mp4"></video>
+      <div id="contact-inner">
+        <span class="contact-eyebrow">Got questions?</span>
+        <h2 class="contact-title">FAQ &amp; Support</h2>
+        <p class="contact-sub">Everything you need to know about AYMAR.</p>
+
+        <div id="contact-faq">
+          <h3 class="contact-faq-title">Frequently Asked Questions</h3>
+
+          <h4 class="faq-category-title">General</h4>
+
+          <div class="faq-item">
+            <h5 class="faq-question">What is AYMAR?</h5>
+            <p class="faq-answer">AYMAR is an AI-powered trading platform designed to assist users with market analysis, Paper Trading, portfolio insights, and Live Trading through supported broker integrations.</p>
+          </div>
+
+          <div class="faq-item">
+            <h5 class="faq-question">Is AYMAR free?</h5>
+            <p class="faq-answer">Yes. AYMAR is completely free to download and use &mdash; no purchase fees, no subscription fees, no monthly or annual charges. A 5% service fee applies only to eligible net profits generated through AYMAR's Live Trading features, as described in the Terms &amp; Conditions.</p>
+          </div>
+
+          <div class="faq-item">
+            <h5 class="faq-question">Does AYMAR guarantee profits?</h5>
+            <p class="faq-answer">No. AYMAR does not guarantee profits or winning trades. All trading involves financial risk.</p>
+          </div>
+
+          <div class="faq-item">
+            <h5 class="faq-question">Is AYMAR a stock broker?</h5>
+            <p class="faq-answer">No. AYMAR is a software platform. Trades are executed through the user's own supported broker account.</p>
+          </div>
+
+          <h4 class="faq-category-title">Paper Trading</h4>
+
+          <div class="faq-item">
+            <h5 class="faq-question">What is Paper Trading?</h5>
+            <p class="faq-answer">Paper Trading allows you to practice trading using simulated trades without risking real money.</p>
+          </div>
+
+          <div class="faq-item">
+            <h5 class="faq-question">Is Paper Trading free?</h5>
+            <p class="faq-answer">Yes. Paper Trading is completely free.</p>
+          </div>
+
+          <div class="faq-item">
+            <h5 class="faq-question">How long should I use Paper Trading?</h5>
+            <p class="faq-answer">We recommend using Paper Trading for at least 60 days before enabling Live Trading.</p>
+          </div>
+
+          <h4 class="faq-category-title">Live Trading</h4>
+
+          <div class="faq-item">
+            <h5 class="faq-question">Do I need my own broker account?</h5>
+            <p class="faq-answer">Yes. Live Trading requires a supported broker account in your own name.</p>
+          </div>
+
+          <div class="faq-item">
+            <h5 class="faq-question">Can I disconnect my broker account?</h5>
+            <p class="faq-answer">Yes. You may disconnect your broker account at any time.</p>
+          </div>
+
+          <div class="faq-item">
+            <h5 class="faq-question">Who is responsible for trades?</h5>
+            <p class="faq-answer">You are. All trading decisions and their outcomes remain your responsibility.</p>
+          </div>
+
+          <h4 class="faq-category-title">Payments</h4>
+
+          <div class="faq-item">
+            <h5 class="faq-question">How does AYMAR make money?</h5>
+            <p class="faq-answer">AYMAR charges a 5% service fee only on eligible net profits generated through AYMAR's Live Trading features, subject to the Terms &amp; Conditions.</p>
+          </div>
+
+          <div class="faq-item">
+            <h5 class="faq-question">Will I pay if I make a loss?</h5>
+            <p class="faq-answer">No. No service fee is charged on trading losses or where there is no eligible net profit.</p>
+          </div>
+
+          <div class="faq-item">
+            <h5 class="faq-question">Does Paper Trading have any charges?</h5>
+            <p class="faq-answer">No. Paper Trading is always free.</p>
+          </div>
+
+          <h4 class="faq-category-title">Security</h4>
+
+          <div class="faq-item">
+            <h5 class="faq-question">Does AYMAR store my broker password?</h5>
+            <p class="faq-answer">No. AYMAR does not store your broker login password, trading password, or OTP.</p>
+          </div>
+
+          <div class="faq-item">
+            <h5 class="faq-question">Is my data secure?</h5>
+            <p class="faq-answer">AYMAR implements reasonable security measures to protect user information. However, no online system can guarantee absolute security.</p>
+          </div>
+        </div>
+
+        <div id="contact-us-section">
+          <h3 class="contact-faq-title">Contact Us</h3>
+          <p class="faq-answer">We're here to help.</p>
+          <p class="faq-answer">If you have questions, feedback, technical issues, or business inquiries, please contact us.</p>
+
+          <h4 class="faq-category-title">Customer Support</h4>
+          <p class="faq-answer">Email: <a href="mailto:support@aymar.in">support@aymar.in</a></p>
+          <p class="faq-answer">Website: <a href="https://www.aymar.in" target="_blank" rel="noopener">https://www.aymar.in</a></p>
+
+          <h4 class="faq-category-title">Business Hours</h4>
+          <p class="faq-answer">Monday &ndash; Friday, 9:00 AM &ndash; 6:00 PM (IST)</p>
+          <p class="faq-answer">Support requests submitted outside business hours will be responded to as soon as reasonably possible.</p>
+
+          <h4 class="faq-category-title">Support Categories</h4>
+          <p class="faq-answer">You can contact us regarding:</p>
+          <ul class="contact-list">
+            <li>Account Issues</li>
+            <li>Technical Support</li>
+            <li>Payment Questions</li>
+            <li>Broker Integration</li>
+            <li>Bug Reports</li>
+            <li>Feature Requests</li>
+            <li>Security Concerns</li>
+            <li>Business Partnerships</li>
+            <li>General Enquiries</li>
+          </ul>
+
+          <h4 class="faq-category-title">Report a Security Issue</h4>
+          <p class="faq-answer">If you discover a security vulnerability within AYMAR, please report it responsibly by emailing <a href="mailto:admin@aymar.in">admin@aymar.in</a>. Please include sufficient details to help us investigate the issue.</p>
+
+          <p class="contact-trust-note">&ldquo;We appreciate your feedback and continuously work to improve AYMAR for all users.&rdquo;</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="view-privacy" class="view-legal">
+      <div class="legal-inner">
+        <a href="#" data-view="home" class="legal-nav-link legal-back-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7" /><path d="M19 12H5" /></svg>
+          Back to Home
+        </a>
+        <h2 class="legal-title">Privacy Policy</h2>
+        <p class="legal-meta">Effective Date: 23-06-2026 &nbsp;&middot;&nbsp; Last Updated: 29-05-2026</p>
+
+        <p>Welcome to AYMAR.</p>
+        <p>AYMAR is an AI-powered trading platform designed to assist users with market analysis, paper trading, live trading support, portfolio insights, and trading performance analytics through supported broker integrations.</p>
+        <p>At AYMAR, we value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, store, and safeguard your information when you access or use the AYMAR website, desktop application, mobile application (if applicable), and related services.</p>
+        <p>By creating an account or using AYMAR, you acknowledge that you have read and understood this Privacy Policy and agree to the collection and use of your information as described herein.</p>
+
+        <h3>1. Information We Collect</h3>
+        <p>To provide our services, AYMAR may collect the following categories of information.</p>
+
+        <h4>1.1 Personal Information</h4>
+        <p>When you register for an AYMAR account, we may collect information such as:</p>
+        <ul>
+          <li>Full Name</li>
+          <li>Email Address</li>
+          <li>Mobile Number</li>
+          <li>Account Credentials</li>
+        </ul>
+        <p>You are responsible for ensuring that the information you provide is accurate and up to date.</p>
+
+        <h4>1.2 Trading Information</h4>
+        <p>If you choose to connect a supported broker account, AYMAR may access trading-related information necessary to provide its services, including:</p>
+        <ul>
+          <li>Order History</li>
+          <li>Trade History</li>
+          <li>Portfolio Details</li>
+          <li>Holdings</li>
+          <li>Open Positions</li>
+          <li>Profit &amp; Loss Information</li>
+          <li>Performance Statistics</li>
+          <li>Account Balance (where permitted by the broker)</li>
+        </ul>
+        <p>AYMAR only accesses information that is necessary to provide its services and only after you authorize the connection through the broker's official authentication process.</p>
+
+        <h4>1.3 Device &amp; Technical Information</h4>
+        <p>To improve reliability, security, and performance, AYMAR may collect:</p>
+        <ul>
+          <li>Device Type</li>
+          <li>Operating System</li>
+          <li>Application Version</li>
+          <li>IP Address</li>
+          <li>Time Zone</li>
+          <li>Error Logs</li>
+          <li>Crash Reports</li>
+          <li>Diagnostic Information</li>
+          <li>Performance Metrics</li>
+        </ul>
+
+        <h4>1.4 Payment Information</h4>
+        <p>Payments made through AYMAR are securely processed by our payment service provider, Razorpay.</p>
+        <p>AYMAR does not store or have access to your:</p>
+        <ul>
+          <li>Debit Card Number</li>
+          <li>Credit Card Number</li>
+          <li>CVV</li>
+          <li>UPI PIN</li>
+          <li>Internet Banking Password</li>
+          <li>OTP</li>
+          <li>Banking Credentials</li>
+        </ul>
+        <p>All payment processing is governed by the privacy policies and security practices of Razorpay.</p>
+
+        <h3>2. Information We Do Not Collect</h3>
+        <p>AYMAR never requests or stores:</p>
+        <ul>
+          <li>Broker Login Passwords</li>
+          <li>Trading Passwords</li>
+          <li>UPI PIN</li>
+          <li>ATM PIN</li>
+          <li>OTP Codes</li>
+          <li>Internet Banking Passwords</li>
+          <li>Debit or Credit Card PINs</li>
+        </ul>
+        <p>Never share such confidential information with anyone claiming to represent AYMAR.</p>
+
+        <h3>3. How We Use Your Information</h3>
+        <p>We use your information to:</p>
+        <ul>
+          <li>Create and manage your AYMAR account.</li>
+          <li>Provide AI-powered trading insights and platform features.</li>
+          <li>Enable Paper Trading and Live Trading functionality.</li>
+          <li>Connect and communicate with supported broker APIs.</li>
+          <li>Process service-related payments.</li>
+          <li>Improve platform stability, security, and performance.</li>
+          <li>Provide customer support.</li>
+          <li>Detect fraud, abuse, unauthorized access, or suspicious activities.</li>
+          <li>Comply with applicable legal and regulatory requirements.</li>
+        </ul>
+        <p>We do not sell your personal information to third parties.</p>
+
+        <h3>4. Paper Trading</h3>
+        <p>Paper Trading is provided solely for educational, evaluation, and practice purposes.</p>
+        <p>Paper Trading uses simulated trades and does not involve real money.</p>
+        <p>AYMAR strongly recommends that all new users use Paper Trading for at least 60 days before enabling Live Trading.</p>
+        <p>No profit-sharing or service fee is charged while using Paper Trading mode.</p>
+
+        <h3>5. Live Trading</h3>
+        <p>Live Trading is optional and requires the user to connect a supported broker account.</p>
+        <p>All live orders are executed through the user's broker account.</p>
+        <p>Users remain solely responsible for every trading decision, order, and financial outcome arising from Live Trading.</p>
+        <p>AYMAR provides software tools and analytical assistance but does not guarantee profitable results.</p>
+
+        <h3>6. Data Sharing</h3>
+        <p>AYMAR does not sell, rent, or trade your personal information.</p>
+        <p>Information may be shared only:</p>
+        <ul>
+          <li>With your connected broker, where required to provide authorized services.</li>
+          <li>With Razorpay for payment processing.</li>
+          <li>With trusted service providers assisting in platform operations, subject to appropriate confidentiality obligations.</li>
+          <li>When required by law, court order, or governmental authority.</li>
+          <li>To investigate fraud, security incidents, or violations of our Terms &amp; Conditions.</li>
+        </ul>
+
+        <h3>7. Data Security</h3>
+        <p>AYMAR implements commercially reasonable technical and organizational safeguards to protect your information against unauthorized access, misuse, alteration, disclosure, or destruction.</p>
+        <p>Despite these efforts, no method of electronic transmission or storage is completely secure. Accordingly, AYMAR cannot guarantee absolute security.</p>
+        <p>Users are responsible for maintaining the confidentiality of their account credentials and for promptly notifying AYMAR of any suspected unauthorized access.</p>
+
+        <h3>8. Data Retention</h3>
+        <p>We retain your information only for as long as reasonably necessary to:</p>
+        <ul>
+          <li>Provide AYMAR services.</li>
+          <li>Maintain your account.</li>
+          <li>Comply with legal and regulatory obligations.</li>
+          <li>Resolve disputes.</li>
+          <li>Enforce our agreements.</li>
+          <li>Protect the security and integrity of the platform.</li>
+        </ul>
+
+        <h3>9. Third-Party Services</h3>
+        <p>AYMAR integrates with third-party providers, including but not limited to:</p>
+        <ul>
+          <li>Supported Broker APIs</li>
+          <li>Razorpay</li>
+        </ul>
+        <p>These third-party services operate under their own terms and privacy policies. AYMAR is not responsible for the privacy practices or content of third-party services.</p>
+
+        <h3>10. User Rights</h3>
+        <p>Subject to applicable law, you may request to:</p>
+        <ul>
+          <li>Access your personal information.</li>
+          <li>Correct inaccurate or incomplete information.</li>
+          <li>Delete your account (subject to legal and operational requirements).</li>
+          <li>Withdraw consent where applicable.</li>
+        </ul>
+        <p>Requests may be submitted to:</p>
+        <p>Email: <a href="mailto:support@aymar.in">support@aymar.in</a></p>
+
+        <h3>11. Children's Privacy</h3>
+        <p>AYMAR is intended only for individuals who are 18 years of age or older.</p>
+        <p>We do not knowingly collect personal information from individuals under the age of 18.</p>
+        <p>If we become aware that such information has been collected, we will take reasonable steps to delete it.</p>
+
+        <h3>12. Cookies &amp; Analytics</h3>
+        <p>The AYMAR website may use essential cookies or similar technologies necessary for basic website functionality, security, and user experience.</p>
+        <p>As of the Effective Date of this Privacy Policy, AYMAR does not use third-party analytics services for tracking user behavior. If this changes in the future, this Privacy Policy will be updated accordingly.</p>
+
+        <h3>13. International Access</h3>
+        <p>AYMAR is operated from India.</p>
+        <p>If you access AYMAR from outside India, you understand that your information may be processed and stored in India, subject to applicable laws.</p>
+
+        <h3>14. Changes to this Privacy Policy</h3>
+        <p>AYMAR reserves the right to modify or update this Privacy Policy at any time.</p>
+        <p>Any changes will become effective upon publication on the official AYMAR website.</p>
+        <p>Your continued use of AYMAR after such changes constitutes your acceptance of the revised Privacy Policy.</p>
+
+        <h3>15. Contact Us</h3>
+        <p>If you have any questions regarding this Privacy Policy or your personal information, please contact us:</p>
+        <p class="legal-contact-block">
+          AYMAR<br />
+          Email: <a href="mailto:support@aymar.in">support@aymar.in</a><br />
+          Website: <a href="https://www.aymar.in" target="_blank" rel="noopener">https://www.aymar.in</a>
+        </p>
+
+        <p class="legal-trust-note">Your trust is our greatest responsibility. AYMAR is committed to protecting your privacy, securing your information, and maintaining transparency in how your data is collected, used, and safeguarded.</p>
+      </div>
+    </div>
+
+    <div id="view-terms" class="view-legal">
+      <div class="legal-inner">
+        <a href="#" data-view="home" class="legal-nav-link legal-back-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7" /><path d="M19 12H5" /></svg>
+          Back to Home
+        </a>
+        <h2 class="legal-title">AYMAR Terms &amp; Conditions</h2>
+        <p class="legal-meta">Version 1.0 &nbsp;&middot;&nbsp; Effective Date: [Launch Date] &nbsp;&middot;&nbsp; Last Updated: [Launch Date]</p>
+
+        <h3>1. Acceptance of Terms</h3>
+        <p>By downloading, installing, registering for, accessing, or using AYMAR, you agree to these Terms &amp; Conditions. If you do not agree, do not use AYMAR.</p>
+
+        <h3>2. About AYMAR</h3>
+        <p>AYMAR is an AI-powered trading platform providing market analysis, paper trading, live trading support through supported broker integrations, portfolio insights, and trading analytics. AYMAR is software and does not provide personalized investment advice.</p>
+
+        <h3>3. Eligibility</h3>
+        <p>You must be at least 18 years old, legally capable of entering into binding agreements, and comply with all applicable laws.</p>
+
+        <h3>4. Paper Trading</h3>
+        <p>Paper Trading is free, uses simulated trades only, involves no real money, and no service fee applies. AYMAR strongly recommends using Paper Trading for at least 60 days before enabling Live Trading.</p>
+
+        <h3>5. Live Trading</h3>
+        <p>Live Trading is optional. Users must connect their own supported broker account. All live trades are executed through the user's broker account. Users remain solely responsible for every trading decision and its financial consequences.</p>
+
+        <h3>6. AYMAR Service Fee</h3>
+        <p>AYMAR is free to download and use. There is no purchase fee, subscription fee, installation fee, or license fee. For users who enable Live Trading, AYMAR charges a 5% service fee only on net profits generated through AYMAR during the applicable billing period. No fee is charged during Paper Trading, if there is no net profit, or on trading losses. Applicable taxes may apply where required by law.</p>
+
+        <h3>7. Trading Risk</h3>
+        <p>Trading in financial markets involves substantial risk. Past performance does not guarantee future results. AYMAR makes no guarantee of profits, returns, capital preservation, or successful trades. Users accept full responsibility for their trading decisions.</p>
+
+        <h3>8. Broker Integration</h3>
+        <p>Users authorize AYMAR to communicate with supported broker APIs only after completing the broker's official authorization process. Users may disconnect broker access at any time.</p>
+
+        <h3>9. User Responsibilities</h3>
+        <p>Users agree to provide accurate information, maintain account security, comply with applicable laws, review orders where appropriate, and use AYMAR responsibly.</p>
+
+        <h3>10. Acceptable Use</h3>
+        <p>Users must not create fraudulent accounts, attempt unauthorized access, reverse engineer or exploit AYMAR, distribute malware, manipulate leaderboards or statistics, misuse payment systems, impersonate others, or use AYMAR for unlawful purposes.</p>
+
+        <h3>11. Community Guidelines</h3>
+        <p>Users participating in AYMAR communities must treat others respectfully. Abuse, harassment, threats, hate speech, vulgar, obscene, discriminatory, sexually explicit, or illegal content is prohibited. Spam, scams, phishing, or unauthorized advertising are also prohibited.</p>
+
+        <h3>12. Suspension &amp; Termination</h3>
+        <p>AYMAR may suspend or permanently terminate accounts that violate these Terms, engage in fraud, abuse the platform, attack platform security, manipulate services, or repeatedly violate community standards. AYMAR reserves the right to refuse future registrations associated with such users where permitted by applicable law.</p>
+
+        <h3>13. Intellectual Property</h3>
+        <p>All AYMAR software, branding, AI engines, algorithms (except third-party licensed components), designs, documentation, graphics, logos, and content are protected by applicable intellectual property laws. Users may not copy, modify, redistribute, resell, scrape, benchmark for competitive purposes, or attempt to recreate AYMAR's proprietary technology without written permission.</p>
+
+        <h3>14. Availability</h3>
+        <p>AYMAR strives to provide reliable service but does not guarantee uninterrupted availability. Outages may occur due to maintenance, broker issues, market data interruptions, internet failures, or other technical causes.</p>
+
+        <h3>15. Limitation of Liability</h3>
+        <p>To the fullest extent permitted by applicable law, AYMAR and its owners, employees, affiliates, and partners shall not be liable for indirect, incidental, consequential, special, exemplary, or punitive damages arising from the use of the platform. Nothing in these Terms limits liability where such limitation is prohibited by law.</p>
+
+        <h3>16. Privacy</h3>
+        <p>Use of AYMAR is also governed by the <a href="#" data-view="privacy" class="legal-nav-link">AYMAR Privacy Policy</a>.</p>
+
+        <h3>17. Changes</h3>
+        <p>AYMAR may modify these Terms from time to time. Updated versions will be published on the official website. Continued use of AYMAR after changes become effective constitutes acceptance of the revised Terms.</p>
+
+        <h3>18. Governing Law</h3>
+        <p>These Terms are governed by the laws of India. Disputes shall be subject to the jurisdiction of the competent courts in India.</p>
+
+        <h3>19. Contact</h3>
+        <p class="legal-contact-block">
+          Email: <a href="mailto:support@aymar.in">support@aymar.in</a><br />
+          Website: <a href="https://www.aymar.in" target="_blank" rel="noopener">https://www.aymar.in</a>
+        </p>
+      </div>
+    </div>
+
+    <div id="view-risk" class="view-legal view-legal-red">
+      <div class="legal-inner">
+        <a href="#" data-view="home" class="legal-nav-link legal-back-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7" /><path d="M19 12H5" /></svg>
+          Back to Home
+        </a>
+        <h2 class="legal-title">Risk Disclosure</h2>
+        <p class="legal-meta">Effective Date: 23-06-2026 &nbsp;&middot;&nbsp; Last Updated: 29-05-2026</p>
+
+        <p>Welcome to AYMAR.</p>
+        <p>AYMAR is an AI-powered trading platform designed to assist users with market analysis, paper trading, trading insights, portfolio analytics, and live trading through supported broker integrations.</p>
+        <p>This Risk Disclosure explains the significant risks associated with trading financial instruments and the use of AI-assisted trading software.</p>
+        <p>By using AYMAR, you acknowledge that you have read, understood, and accepted the risks described in this document.</p>
+
+        <h3>1. Trading Involves Risk</h3>
+        <p>Trading in financial markets, including but not limited to equities, derivatives, options, futures, commodities, and other financial instruments, involves substantial financial risk.</p>
+        <p>Market prices are volatile and may change rapidly due to various factors, including:</p>
+        <ul>
+          <li>Market sentiment</li>
+          <li>Economic events</li>
+          <li>Government policies</li>
+          <li>Corporate announcements</li>
+          <li>Global events</li>
+          <li>Liquidity conditions</li>
+          <li>Unexpected market movements</li>
+        </ul>
+        <p>You may lose part or all of your invested capital.</p>
+
+        <h3>2. No Guarantee of Profit</h3>
+        <p>AYMAR does not guarantee:</p>
+        <ul>
+          <li>Profitable trades</li>
+          <li>Winning strategies</li>
+          <li>Monthly profits</li>
+          <li>Annual returns</li>
+          <li>Consistent performance</li>
+          <li>Capital appreciation</li>
+          <li>Protection from financial loss</li>
+        </ul>
+        <p>Past performance of any trading strategy, AI engine, or historical backtest does not guarantee future performance.</p>
+
+        <h3>3. AI Is an Assistance Tool</h3>
+        <p>AYMAR uses Artificial Intelligence and algorithmic models to assist users in analyzing market conditions.</p>
+        <p>AI-generated outputs are intended solely as analytical assistance.</p>
+        <p>They should not be interpreted as:</p>
+        <ul>
+          <li>Financial advice</li>
+          <li>Investment advice</li>
+          <li>Trading recommendations</li>
+          <li>Guaranteed trading signals</li>
+          <li>Promises of profitability</li>
+        </ul>
+        <p>Final trading decisions remain entirely the responsibility of the user.</p>
+
+        <h3>4. Market Conditions Change</h3>
+        <p>Financial markets continuously evolve.</p>
+        <p>Strategies or AI engines that performed well under historical market conditions may perform differently in future market environments.</p>
+        <p>Unexpected events, changing volatility, liquidity constraints, and structural market changes may affect trading outcomes.</p>
+
+        <h3>5. Paper Trading</h3>
+        <p>AYMAR provides Paper Trading for educational and evaluation purposes.</p>
+        <p>Paper Trading:</p>
+        <ul>
+          <li>Uses simulated trades.</li>
+          <li>Does not involve real money.</li>
+          <li>May not accurately reflect live market execution.</li>
+          <li>Does not fully replicate slippage, liquidity, latency, brokerage charges, taxes, or execution delays.</li>
+        </ul>
+        <p>Performance achieved during Paper Trading may differ significantly from Live Trading.</p>
+        <p>AYMAR strongly recommends that all new users complete at least 60 days of Paper Trading before enabling Live Trading.</p>
+
+        <h3>6. Live Trading</h3>
+        <p>Live Trading involves real financial transactions executed through the user's connected broker account.</p>
+        <p>When Live Trading is enabled:</p>
+        <ul>
+          <li>Real capital is at risk.</li>
+          <li>Profits and losses are real.</li>
+          <li>Brokerage charges, taxes, and other fees may apply.</li>
+          <li>Market execution may differ from simulated execution.</li>
+        </ul>
+        <p>Users should enable Live Trading only after understanding the associated risks.</p>
+
+        <h3>7. User Responsibility</h3>
+        <p>Users remain solely responsible for:</p>
+        <ul>
+          <li>Every trading decision.</li>
+          <li>Every order placed.</li>
+          <li>Position sizing.</li>
+          <li>Risk management.</li>
+          <li>Capital allocation.</li>
+          <li>Stop-loss management.</li>
+          <li>Compliance with applicable laws.</li>
+          <li>Tax obligations arising from trading activities.</li>
+        </ul>
+        <p>The use of AYMAR does not transfer these responsibilities to AYMAR.</p>
+
+        <h3>8. Broker Connectivity</h3>
+        <p>AYMAR communicates with supported broker platforms only after authorization by the user.</p>
+        <p>Orders are executed through the user's broker account.</p>
+        <p>AYMAR is not responsible for:</p>
+        <ul>
+          <li>Broker outages.</li>
+          <li>API failures.</li>
+          <li>Network interruptions.</li>
+          <li>Delayed executions.</li>
+          <li>Exchange issues.</li>
+          <li>Broker-side errors.</li>
+        </ul>
+
+        <h3>9. Technology Risks</h3>
+        <p>Like all software platforms, AYMAR may occasionally experience:</p>
+        <ul>
+          <li>Internet connectivity issues.</li>
+          <li>Hardware failures.</li>
+          <li>Software bugs.</li>
+          <li>Maintenance periods.</li>
+          <li>Power outages.</li>
+          <li>Cloud service interruptions.</li>
+          <li>Broker API downtime.</li>
+          <li>Market data interruptions.</li>
+        </ul>
+        <p>Such events may affect trading operations.</p>
+
+        <h3>10. Historical Performance</h3>
+        <p>Historical backtests, simulations, research reports, and performance statistics are provided for informational and educational purposes only.</p>
+        <p>Historical performance should never be interpreted as an assurance or guarantee of future trading success.</p>
+
+        <h3>11. Limitation of Responsibility</h3>
+        <p>To the fullest extent permitted by applicable law, AYMAR shall not be responsible for losses arising from, including but not limited to:</p>
+        <ul>
+          <li>Trading losses.</li>
+          <li>Market volatility.</li>
+          <li>Strategy performance.</li>
+          <li>AI predictions.</li>
+          <li>Broker failures.</li>
+          <li>Internet disruptions.</li>
+          <li>Software interruptions.</li>
+          <li>Data feed interruptions.</li>
+          <li>Third-party service failures.</li>
+          <li>User errors.</li>
+          <li>Incorrect trade execution resulting from user actions.</li>
+        </ul>
+        <p>Nothing in this section excludes or limits liability where such exclusion or limitation is prohibited by applicable law.</p>
+
+        <h3>12. Educational Purpose</h3>
+        <p>AYMAR is designed to assist users with market analysis and trading workflows.</p>
+        <p>Users should conduct their own research and, where appropriate, seek advice from qualified financial, legal, or tax professionals before making investment decisions.</p>
+
+        <h3>13. Acknowledgement</h3>
+        <p>By enabling Live Trading or otherwise using AYMAR, you acknowledge that:</p>
+        <ul>
+          <li>You understand the risks associated with financial markets.</li>
+          <li>You understand that trading may result in financial losses.</li>
+          <li>You understand that AI-generated outputs are analytical tools and not guarantees.</li>
+          <li>You understand that past performance does not guarantee future results.</li>
+          <li>You accept full responsibility for all trading decisions made using AYMAR.</li>
+        </ul>
+
+        <h3>14. Contact</h3>
+        <p>If you have any questions regarding this Risk Disclosure, please contact:</p>
+        <p class="legal-contact-block">
+          AYMAR<br />
+          Email: <a href="mailto:support@aymar.in">support@aymar.in</a><br />
+          Website: <a href="https://www.aymar.in" target="_blank" rel="noopener">https://www.aymar.in</a>
+        </p>
+
+        <p class="legal-trust-note">AYMAR's mission is not to encourage reckless trading&mdash;it is to promote disciplined, informed, and responsible participation in financial markets. We strongly encourage every user to learn, practice through Paper Trading, understand risk management, and transition to Live Trading only when they are confident in their knowledge and experience.</p>
+      </div>
+    </div>
+
+    <div id="view-disclaimer" class="view-legal view-legal-blue">
+      <div class="legal-inner">
+        <a href="#" data-view="home" class="legal-nav-link legal-back-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7" /><path d="M19 12H5" /></svg>
+          Back to Home
+        </a>
+        <h2 class="legal-title">Disclaimer</h2>
+        <p class="legal-meta">Effective Date: 23-06-2026 &nbsp;&middot;&nbsp; Last Updated: 25-05-2026</p>
+
+        <p>Welcome to AYMAR.</p>
+        <p>This Disclaimer explains the scope and limitations of AYMAR's services.</p>
+        <p>By accessing or using AYMAR, including its website, desktop application, AI engines, paper trading features, live trading integrations, or related services, you acknowledge that you have read, understood, and agree to this Disclaimer.</p>
+
+        <h3>1. Software Platform Only</h3>
+        <p>AYMAR is an AI-powered software platform designed to assist users with market analysis, trading workflows, paper trading, portfolio insights, and live trading through supported broker integrations.</p>
+        <p>AYMAR is a technology platform and is not a stock broker, investment advisor, portfolio manager, research analyst, financial planner, or asset management company.</p>
+
+        <h3>2. Not Financial Advice</h3>
+        <p>All information, market analysis, charts, AI outputs, strategy suggestions, statistics, historical performance, and trading insights provided through AYMAR are for informational and educational purposes only.</p>
+        <p>Nothing provided by AYMAR should be interpreted as:</p>
+        <ul>
+          <li>Investment advice</li>
+          <li>Financial advice</li>
+          <li>Legal advice</li>
+          <li>Tax advice</li>
+          <li>Portfolio management services</li>
+          <li>Personalized trading recommendations</li>
+        </ul>
+        <p>Users should make their own independent decisions and, where appropriate, consult qualified financial, legal, or tax professionals.</p>
+
+        <h3>3. No Guarantee of Results</h3>
+        <p>AYMAR makes no representation or warranty regarding:</p>
+        <ul>
+          <li>Profitability</li>
+          <li>Trading success</li>
+          <li>Future returns</li>
+          <li>Capital appreciation</li>
+          <li>Winning percentage</li>
+          <li>Monthly income</li>
+          <li>Annual income</li>
+          <li>Consistent performance</li>
+        </ul>
+        <p>Financial markets are unpredictable, and all trading involves risk.</p>
+
+        <h3>4. AI Limitations</h3>
+        <p>AYMAR uses Artificial Intelligence and algorithmic models to assist users.</p>
+        <p>AI-generated outputs are based on historical market information, statistical analysis, and predefined algorithms.</p>
+        <p>Artificial Intelligence is not infallible and may:</p>
+        <ul>
+          <li>Produce inaccurate outputs.</li>
+          <li>Miss market opportunities.</li>
+          <li>Generate false signals.</li>
+          <li>Fail to anticipate unexpected market events.</li>
+          <li>Produce different outcomes under changing market conditions.</li>
+        </ul>
+        <p>Users should never rely solely on AI-generated outputs when making financial decisions.</p>
+
+        <h3>5. Historical Performance</h3>
+        <p>Historical backtests, simulations, trading statistics, research reports, and previous performance are presented solely for educational and analytical purposes.</p>
+        <p>Past performance does not guarantee future results.</p>
+
+        <h3>6. Paper Trading</h3>
+        <p>Paper Trading is provided for educational purposes only.</p>
+        <p>Because Paper Trading operates in a simulated environment, its results may differ from Live Trading due to factors including:</p>
+        <ul>
+          <li>Slippage</li>
+          <li>Liquidity</li>
+          <li>Order execution delays</li>
+          <li>Brokerage charges</li>
+          <li>Taxes</li>
+          <li>Market impact</li>
+        </ul>
+        <p>Paper Trading performance should not be considered an indication of future Live Trading performance.</p>
+
+        <h3>7. Live Trading</h3>
+        <p>When users enable Live Trading, orders are executed through their own connected broker account.</p>
+        <p>All trading decisions, including order placement, position sizing, and risk management, remain solely the responsibility of the user.</p>
+        <p>AYMAR does not make trading decisions on behalf of users.</p>
+
+        <h3>8. Third-Party Services</h3>
+        <p>AYMAR may integrate with third-party services, including:</p>
+        <ul>
+          <li>Broker APIs</li>
+          <li>Payment providers</li>
+          <li>Cloud infrastructure</li>
+          <li>Market data providers</li>
+        </ul>
+        <p>AYMAR is not responsible for interruptions, failures, delays, inaccuracies, or issues arising from third-party services.</p>
+
+        <h3>9. Market Data</h3>
+        <p>Market data displayed within AYMAR may originate from third-party providers.</p>
+        <p>While reasonable efforts are made to provide reliable information, AYMAR does not guarantee the completeness, accuracy, timeliness, or uninterrupted availability of market data.</p>
+
+        <h3>10. Website Information</h3>
+        <p>The content available on the AYMAR website, documentation, tutorials, blogs, FAQs, research reports, and educational materials is intended for general informational purposes only.</p>
+        <p>Such content should not be considered professional financial advice.</p>
+
+        <h3>11. Limitation of Liability</h3>
+        <p>To the fullest extent permitted by applicable law, AYMAR, its owners, employees, affiliates, partners, licensors, and service providers shall not be liable for any direct, indirect, incidental, consequential, special, exemplary, or punitive damages arising from or related to:</p>
+        <ul>
+          <li>Trading losses</li>
+          <li>Loss of profits</li>
+          <li>Loss of capital</li>
+          <li>Market volatility</li>
+          <li>AI-generated outputs</li>
+          <li>Strategy performance</li>
+          <li>Broker outages</li>
+          <li>API failures</li>
+          <li>Software bugs</li>
+          <li>Internet disruptions</li>
+          <li>Market data interruptions</li>
+          <li>Third-party service failures</li>
+          <li>User errors</li>
+          <li>Delayed executions</li>
+        </ul>
+        <p>Nothing in this Disclaimer limits liability where such limitation is prohibited by applicable law.</p>
+
+        <h3>12. User Responsibility</h3>
+        <p>Users remain fully responsible for:</p>
+        <ul>
+          <li>Every trade executed</li>
+          <li>Every investment decision</li>
+          <li>Capital allocation</li>
+          <li>Risk management</li>
+          <li>Tax compliance</li>
+          <li>Compliance with applicable laws</li>
+          <li>Reviewing and understanding all trades placed through their broker account</li>
+        </ul>
+        <p>Use of AYMAR does not transfer these responsibilities to AYMAR.</p>
+
+        <h3>13. No Fiduciary Relationship</h3>
+        <p>The use of AYMAR does not create any fiduciary, advisory, agency, partnership, employment, or joint venture relationship between AYMAR and the user.</p>
+
+        <h3>14. Changes to This Disclaimer</h3>
+        <p>AYMAR reserves the right to update or modify this Disclaimer at any time.</p>
+        <p>The latest version will always be available on the official website.</p>
+        <p>Continued use of AYMAR after changes become effective constitutes acceptance of the updated Disclaimer.</p>
+
+        <h3>15. Contact Information</h3>
+        <p>If you have questions regarding this Disclaimer, please contact:</p>
+        <p class="legal-contact-block">
+          AYMAR<br />
+          Email: <a href="mailto:support@aymar.in">support@aymar.in</a><br />
+          Website: <a href="https://www.aymar.in" target="_blank" rel="noopener">https://www.aymar.in</a>
+        </p>
+
+        <p class="legal-trust-note">AYMAR is committed to building technology that supports informed and responsible trading. Our platform is designed to assist users with analysis and decision-making, but every financial decision and its outcome remain the responsibility of the individual user.</p>
+      </div>
+    </div>
+
+    <div id="view-refund" class="view-legal">
+      <div class="legal-inner">
+        <a href="#" data-view="home" class="legal-nav-link legal-back-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7" /><path d="M19 12H5" /></svg>
+          Back to Home
+        </a>
+        <h2 class="legal-title">Refund &amp; Cancellation Policy</h2>
+        <p class="legal-meta">Effective Date: 23-06-2026 &nbsp;&middot;&nbsp; Last Updated: 29-05-2026</p>
+
+        <p>This Refund &amp; Cancellation Policy explains how payments, service fees, refunds, and cancellations are handled when using AYMAR.</p>
+        <p>By using AYMAR, you agree to this Refund &amp; Cancellation Policy.</p>
+
+        <h3>1. Free Access</h3>
+        <p>AYMAR is free to download and use.</p>
+        <p>AYMAR does not charge:</p>
+        <ul>
+          <li>Download fees</li>
+          <li>Installation fees</li>
+          <li>Registration fees</li>
+          <li>Subscription fees</li>
+          <li>Monthly membership fees</li>
+          <li>Annual membership fees</li>
+          <li>License fees</li>
+        </ul>
+        <p>Users may access Paper Trading and other free features without any payment.</p>
+
+        <h3>2. Paper Trading</h3>
+        <p>Paper Trading is completely free.</p>
+        <p>No service fee is charged while using Paper Trading.</p>
+        <p>As no payment is collected for Paper Trading, no refund is applicable.</p>
+
+        <h3>3. Live Trading Service Fee</h3>
+        <p>For users who enable Live Trading, AYMAR charges a 5% service fee only on the net profits generated through AYMAR, subject to the applicable Terms &amp; Conditions.</p>
+        <p>No service fee is charged:</p>
+        <ul>
+          <li>If there is no net profit.</li>
+          <li>If trading results in a loss.</li>
+          <li>During Paper Trading.</li>
+          <li>If no eligible profit-sharing amount is due.</li>
+        </ul>
+
+        <h3>4. Refund Eligibility</h3>
+        <p>Because AYMAR's service fee is calculated only after eligible net profits are generated, payments made in accordance with the Terms &amp; Conditions are generally non-refundable.</p>
+        <p>However, AYMAR may review refund requests in exceptional circumstances, including:</p>
+        <ul>
+          <li>Duplicate payments.</li>
+          <li>Incorrect billing due to a technical error.</li>
+          <li>Unauthorized charges verified by AYMAR.</li>
+          <li>Payment processing errors.</li>
+        </ul>
+        <p>Refunds, where approved, will be processed using the original payment method whenever reasonably possible.</p>
+
+        <h3>5. Cancellation</h3>
+        <p>Users may discontinue using AYMAR or disable Live Trading at any time.</p>
+        <p>Disabling Live Trading prevents future service fees from being incurred but does not affect fees that have already become payable under the applicable Terms &amp; Conditions.</p>
+
+        <h3>6. Payment Disputes</h3>
+        <p>If you believe a payment or service fee has been charged incorrectly, please contact AYMAR before initiating a chargeback or payment dispute.</p>
+        <p>AYMAR will investigate the matter and work to resolve genuine billing issues promptly.</p>
+
+        <h3>7. Chargebacks</h3>
+        <p>Initiating a fraudulent or unjustified chargeback after receiving services may result in:</p>
+        <ul>
+          <li>Temporary suspension of the account.</li>
+          <li>Permanent account termination.</li>
+          <li>Restriction from future use of AYMAR.</li>
+          <li>Recovery of outstanding amounts through lawful means, where applicable.</li>
+        </ul>
+        <p>Nothing in this section limits your rights under applicable consumer protection laws.</p>
+
+        <h3>8. Payment Providers</h3>
+        <p>Payments are securely processed through authorized third-party payment providers, such as Razorpay.</p>
+        <p>AYMAR does not store users' complete payment card information.</p>
+        <p>Payment processing is subject to the terms and conditions of the applicable payment provider.</p>
+
+        <h3>9. Taxes</h3>
+        <p>Any applicable taxes, duties, or government charges relating to the AYMAR service fee shall be handled in accordance with applicable laws.</p>
+        <p>Users are responsible for any personal tax obligations arising from their trading activities.</p>
+
+        <h3>10. Changes to This Policy</h3>
+        <p>AYMAR may update this Refund &amp; Cancellation Policy from time to time.</p>
+        <p>The latest version will always be available on the official AYMAR website.</p>
+        <p>Continued use of AYMAR after changes become effective constitutes acceptance of the updated policy.</p>
+
+        <h3>11. Contact Us</h3>
+        <p>If you have any questions regarding this Refund &amp; Cancellation Policy or wish to request a review of a payment, please contact us:</p>
+        <p class="legal-contact-block">
+          AYMAR<br />
+          Email: <a href="mailto:support@aymar.in">support@aymar.in</a><br />
+          Website: <a href="https://www.aymar.in" target="_blank" rel="noopener">https://www.aymar.in</a>
+        </p>
+
+        <p class="legal-trust-note">AYMAR's business model is designed to align with user success. We do not charge users to download or access the platform. Our service fee is applicable only when eligible net profits are generated through AYMAR's Live Trading features, in accordance with our Terms &amp; Conditions.</p>
+      </div>
+    </div>
+
+    <div id="view-backtests">
+      <video id="backtests-bg-video" autoplay muted loop playsinline src="/matrix-bg.mp4"></video>
+      <div id="backtests-inner">
+        <h2 class="backtests-title">Our Core Engine Results</h2>
+
+        <div id="core-engines-grid">
+          <div class="core-engine-card">
+            <span class="core-engine-name">S2 ORION</span>
+            <div class="core-engine-divider"></div>
+            <div class="core-engine-stats">
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Total Trades</span>
+                <span class="core-engine-stat-value">605</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Win Rate</span>
+                <span class="core-engine-stat-value">65.12%</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Net P&amp;L</span>
+                <span class="core-engine-stat-value stat-positive">Rs 12,06,076</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Profit Factor</span>
+                <span class="core-engine-stat-value">5.59</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Capital</span>
+                <span class="core-engine-stat-value">Rs 5,00,000</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Max Drawdown</span>
+                <span class="core-engine-stat-value stat-negative">Rs 15,050 (3.01%)</span>
+              </div>
+            </div>
+            <a href="/backtests/s2-orion-backtest.pdf" class="core-engine-download" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12" /><path d="m7 10 5 5 5-5" /><path d="M5 21h14" /></svg>
+              Download the Result
+            </a>
+          </div>
+
+          <div class="core-engine-card">
+            <span class="core-engine-name">ORION-X5</span>
+            <div class="core-engine-divider"></div>
+            <div class="core-engine-stats">
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Total Trades</span>
+                <span class="core-engine-stat-value">596</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Win Rate</span>
+                <span class="core-engine-stat-value">60.4%</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Net P&amp;L</span>
+                <span class="core-engine-stat-value stat-positive">Rs 24,69,967</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Profit Factor</span>
+                <span class="core-engine-stat-value">4.65</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Capital</span>
+                <span class="core-engine-stat-value">Rs 5,00,000</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Max Drawdown</span>
+                <span class="core-engine-stat-value stat-negative">Rs 35,800 (7.16%)</span>
+              </div>
+            </div>
+            <a href="/backtests/orion-x5-backtest.pdf" class="core-engine-download" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12" /><path d="m7 10 5 5 5-5" /><path d="M5 21h14" /></svg>
+              Download the Result
+            </a>
+          </div>
+
+          <div class="core-engine-card">
+            <span class="core-engine-name">VEGA</span>
+            <div class="core-engine-divider"></div>
+            <div class="core-engine-stats">
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Total Trades</span>
+                <span class="core-engine-stat-value">327</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Win Rate</span>
+                <span class="core-engine-stat-value">74.01%</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Net P&amp;L</span>
+                <span class="core-engine-stat-value stat-positive">Rs 6,55,975</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Profit Factor</span>
+                <span class="core-engine-stat-value">2.68</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Capital</span>
+                <span class="core-engine-stat-value">Rs 5,00,000</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Max Drawdown</span>
+                <span class="core-engine-stat-value stat-negative">Rs 32,200 (6.44%)</span>
+              </div>
+            </div>
+            <a href="/backtests/vega-backtest.pdf" class="core-engine-download" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12" /><path d="m7 10 5 5 5-5" /><path d="M5 21h14" /></svg>
+              Download the Result
+            </a>
+          </div>
+
+          <div class="core-engine-card">
+            <span class="core-engine-name">VEGA-V5</span>
+            <div class="core-engine-divider"></div>
+            <div class="core-engine-stats">
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Total Trades</span>
+                <span class="core-engine-stat-value">325</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Win Rate</span>
+                <span class="core-engine-stat-value">73.54%</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Net P&amp;L</span>
+                <span class="core-engine-stat-value stat-positive">Rs 6,42,479</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Profit Factor</span>
+                <span class="core-engine-stat-value">2.75</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Capital</span>
+                <span class="core-engine-stat-value">Rs 5,00,000</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Max Drawdown</span>
+                <span class="core-engine-stat-value stat-negative">Rs 28,750 (5.75%)</span>
+              </div>
+            </div>
+            <a href="/backtests/vega-v5-backtest.pdf" class="core-engine-download" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12" /><path d="m7 10 5 5 5-5" /><path d="M5 21h14" /></svg>
+              Download the Result
+            </a>
+          </div>
+
+          <div class="core-engine-card core-engine-card-kratos">
+            <span class="core-engine-name">KRATOS</span>
+            <div class="core-engine-divider"></div>
+            <div class="core-engine-stats">
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Total Trades</span>
+                <span class="core-engine-stat-value">1,759</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Win Rate</span>
+                <span class="core-engine-stat-value">65.04%</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Net P&amp;L</span>
+                <span class="core-engine-stat-value stat-positive">Rs 45,01,136</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Profit Factor</span>
+                <span class="core-engine-stat-value">3.67</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Capital</span>
+                <span class="core-engine-stat-value">Rs 5,00,000</span>
+              </div>
+              <div class="core-engine-stat">
+                <span class="core-engine-stat-label">Max Drawdown</span>
+                <span class="core-engine-stat-value stat-negative">Rs 72,950 (14.59%)</span>
+              </div>
+            </div>
+            <a href="/backtests/kratos-backtest.pdf" class="core-engine-download" download>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12" /><path d="m7 10 5 5 5-5" /><path d="M5 21h14" /></svg>
+              Download the Result
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <canvas id="engines-canvas"></canvas>
+
+    <div id="engines-loading">
+      <div class="loader-track"><div class="loader-fill"></div></div>
+      <div class="loader-pct">0%</div>
+    </div>
+
+    <main id="engines-spacer"></main>
+
+    <div id="engine-reveal" class="engine-reveal">
+      <div class="engine-reveal-card">
+        <span class="engine-reveal-eyebrow" id="engine-reveal-eyebrow">Engine 01</span>
+        <h3 class="engine-reveal-name" id="engine-reveal-name">S2-ORION</h3>
+        <div class="engine-reveal-divider"></div>
+        <div class="engine-reveal-stats">
+          <div class="engine-reveal-stat">
+            <span class="engine-reveal-stat-label">Total Trades</span>
+            <span class="engine-reveal-stat-value" id="engine-reveal-trades">--</span>
+          </div>
+          <div class="engine-reveal-stat">
+            <span class="engine-reveal-stat-label">Net P&amp;L</span>
+            <span class="engine-reveal-stat-value stat-positive" id="engine-reveal-pnl">--</span>
+          </div>
+          <div class="engine-reveal-stat">
+            <span class="engine-reveal-stat-label">Profit Factor</span>
+            <span class="engine-reveal-stat-value" id="engine-reveal-pf">--</span>
+          </div>
+          <div class="engine-reveal-stat">
+            <span class="engine-reveal-stat-label">Capital Used</span>
+            <span class="engine-reveal-stat-value" id="engine-reveal-capital">--</span>
+          </div>
+          <div class="engine-reveal-stat">
+            <span class="engine-reveal-stat-label">Win Rate</span>
+            <span class="engine-reveal-stat-value" id="engine-reveal-winrate">--</span>
+          </div>
+          <div class="engine-reveal-stat">
+            <span class="engine-reveal-stat-label">Max Drawdown</span>
+            <span class="engine-reveal-stat-value" id="engine-reveal-dd">--</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <svg id="engine-reveal-line" class="engine-reveal-line" xmlns="http://www.w3.org/2000/svg">
+      <path id="engine-reveal-line-el" d="" />
+      <circle id="engine-reveal-line-dot" cx="0" cy="0" r="4" />
+    </svg>
+
+
+    <div id="stage-wrap">
+      <canvas id="stage"></canvas>
+    </div>
+
+    <div id="welcome-text">Welcome to</div>
+
+    <canvas id="smoke-canvas"></canvas>
+
+    <canvas id="bg1-canvas"></canvas>
+
+    <section id="why-section">
+      <div id="why-heading-stack">
+        <div id="why-heading">
+          <span id="vmg-prefix" class="why-heading-text-variant">Vision, </span>
+          <div id="letter-m-wrap">
+            <img id="letter-m" src="/letter-m.webp" alt="W" />
+          </div>
+          <div id="why-heading-text-stack">
+            <span id="why-heading-text" class="why-heading-text-variant">hat is Aymar?</span>
+            <span id="why-heading-text-2" class="why-heading-text-variant">hy AYMAR?</span>
+            <span id="why-heading-text-3" class="why-heading-text-variant">ho is AYMAR For?</span>
+            <span id="vmg-heading" class="why-heading-text-variant">ission &amp; Goal</span>
+            <span id="why-heading-text-4" class="why-heading-text-variant">anna look how our Dashboard looks??</span>
+          </div>
+        </div>
+      </div>
+      <div id="why-paragraph-stack">
+        <div id="why-paragraph" class="why-paragraph-block">
+          <p>
+            AYMAR is a free, AI-powered intelligent trading platform that continuously
+            <span class="hl-green">analyzes</span> the markets,
+            <span class="hl-green">identifies</span> high-quality trading opportunities,
+            <span class="hl-red">manages</span> risk through disciplined rules, and
+            <span class="hl-red">executes</span> strategies with precision.
+          </p>
+          <span class="why-divider"></span>
+          <p>
+            By combining <span class="hl-green">advanced automation</span> with
+            <span class="hl-red">multiple specialized trading engines</span>, AYMAR delivers a
+            consistent, data-driven trading experience inspired by institutional practices while
+            remaining accessible to every trader.
+          </p>
+        </div>
+        <div id="why-paragraph-2" class="why-paragraph-block">
+          <p>
+            Built on intelligence, driven by discipline, and designed for consistency, AYMAR
+            empowers traders with <span class="hl-green">institutional-inspired automation</span>,
+            <span class="hl-green">real-time market analysis</span>, and
+            <span class="hl-red">systematic execution</span>—all within a single intelligent
+            platform.
+          </p>
+        </div>
+        <div id="who-content" class="why-paragraph-block">
+          <div class="who-grid">
+            <div class="who-card">
+              <span class="who-icon">👨‍💼</span>
+              <h3>Working Professionals</h3>
+              <p>For individuals with demanding careers who want intelligent market participation without spending hours in front of charts.</p>
+            </div>
+            <div class="who-card">
+              <span class="who-icon">🎓</span>
+              <h3>College Students</h3>
+              <p>For aspiring traders who want to learn, practice with paper trading, and build confidence before trading live.</p>
+            </div>
+            <div class="who-card">
+              <span class="who-icon">🌱</span>
+              <h3>Beginners</h3>
+              <p>For those new to the stock market, with guided, rule-based trading designed to simplify the learning experience.</p>
+            </div>
+            <div class="who-card">
+              <span class="who-icon">📈</span>
+              <h3>Full-Time Traders</h3>
+              <p>For experienced traders seeking AI-powered automation, disciplined execution, and institutional-inspired risk management.</p>
+            </div>
+            <div class="who-card">
+              <span class="who-icon">💼</span>
+              <h3>Business Owners</h3>
+              <p>For entrepreneurs who want to stay focused on growing their business while AYMAR continuously monitors the markets.</p>
+            </div>
+            <div class="who-card">
+              <span class="who-icon">💼</span>
+              <h3>Salaried Employees</h3>
+              <p>For professionals looking to explore an additional investment or trading approach without constantly tracking the market.</p>
+            </div>
+            <div class="who-card">
+              <span class="who-icon">👴</span>
+              <h3>Retired Individuals</h3>
+              <p>For those who want to remain active in the financial markets through a structured and disciplined trading platform.</p>
+            </div>
+            <div class="who-card">
+              <span class="who-icon">🌍</span>
+              <h3>Every Ambitious Trader</h3>
+              <p>For anyone who believes that access to intelligent trading technology should not depend on experience, profession, or available time.</p>
+            </div>
+          </div>
+          <p class="who-closing">
+            <strong>AYMAR is built for everyone who believes intelligent trading should be accessible to all.</strong>
+          </p>
+        </div>
+        <div id="vmg-content" class="why-paragraph-block">
+          <div class="vmg-grid">
+            <div class="vmg-card">
+              <span class="vmg-icon">🌍</span>
+              <h3>Vision</h3>
+              <ul>
+                <li>Build a financially stable community.</li>
+                <li>Make financial opportunities accessible to everyone.</li>
+                <li>Empower people to achieve long-term financial freedom through intelligent technology.</li>
+              </ul>
+            </div>
+            <div class="vmg-card">
+              <span class="vmg-icon">🎯</span>
+              <h3>Mission</h3>
+              <ul>
+                <li>Make intelligent trading accessible to everyone.</li>
+                <li>Simplify trading through AI-powered automation and disciplined execution.</li>
+                <li>Deliver transparent, reliable, and user-focused trading technology.</li>
+              </ul>
+            </div>
+            <div class="vmg-card">
+              <span class="vmg-icon">🚀</span>
+              <h3>Goal</h3>
+              <ul>
+                <li>Build an intelligent trading platform trusted by traders worldwide.</li>
+                <li>Help users participate in the financial markets with confidence and discipline.</li>
+                <li>Continuously innovate and improve AYMAR to make advanced trading technology simple, free, and accessible.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="dashboard-reveal-wrap" class="why-paragraph-block">
+          <img id="dashboard-reveal" src="/dashboard-preview.png" alt="AYMAR dashboard" />
+        </div>
+      </div>
+    </section>
+
+    <canvas id="endcard-bridge-canvas"></canvas>
+    <canvas id="endcard-canvas"></canvas>
+
+    <main id="scroll-spacer"></main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
