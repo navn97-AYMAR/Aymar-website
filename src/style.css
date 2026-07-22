@@ -902,6 +902,16 @@ body {
   margin-top: 4px;
 }
 
+#home-footer-tagline {
+  font-family: "Satoshi", "Inter", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+}
+
 .home-social {
   display: flex;
   align-items: center;
