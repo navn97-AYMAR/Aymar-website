@@ -1,6 +1,6 @@
 import Lenis from "lenis";
 import { ENGINE_FRAME_COUNT, preloadEngineFrames } from "./preload.js";
-import { createCanvasRenderer, getCoverRect } from "./canvasRenderer.js";
+import { createCanvasRenderer, getResponsiveCoverRect } from "./canvasRenderer.js";
 
 const SCROLL_PER_FRAME = 32; // higher = more scroll needed per frame = slower playback
 
@@ -151,7 +151,14 @@ export function createEnginesView() {
   // right-angle bend down (or up) into the card's left edge.
   function positionConnectorLine(reveal) {
     const dpr = Math.min(window.devicePixelRatio || 1, 2);
-    const { scale, dx, dy } = getCoverRect(window.innerWidth, window.innerHeight, SOURCE_W, SOURCE_H, dpr, 1);
+    // Responsive: on a portrait phone, cover-fit against this 1920x1080
+    // source only shows its middle ~26% of width, which pushed piston 4's
+    // anchor (x:1222) outside the visible crop entirely - the connector
+    // line pointed at a clamped screen edge instead of the actual piston.
+    // Falls back to contain-fit there (matching the canvas's own default
+    // "cover" draw, which uses this same rule), so every anchor stays
+    // within the visible frame on any viewport shape.
+    const { scale, dx, dy } = getResponsiveCoverRect(window.innerWidth, window.innerHeight, SOURCE_W, SOURCE_H, dpr, 1);
     const margin = 10;
     // On a browser viewport proportionally wider than the 16:9 source,
     // cover-fit crops the top/bottom of the frame - and piston 1 sits close

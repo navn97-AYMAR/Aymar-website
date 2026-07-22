@@ -1,5 +1,5 @@
 import gsap from "gsap";
-import { getCoverRect, createCanvasRenderer } from "./canvasRenderer.js";
+import { getCoverRect, getResponsiveCoverRect, createCanvasRenderer } from "./canvasRenderer.js";
 import { SMOKE_FRAME_COUNT, BG1_FRAME_COUNT, ENDCARD_FRAME_COUNT, BRIDGE_FRAME_COUNT } from "./preload.js";
 
 const SOURCE_W = 1620;
@@ -218,8 +218,11 @@ export function createWhyChapter({
     // -- same root-cause fix as drawSmoke/tickBg1 above, otherwise the M's
     // fall-landing target drifts from the M actually visible in the frame
     // beneath it at 100% zoom (dpr=1 engages the clamp there but not here).
+    // Responsive (not plain getCoverRect) for the same reason reveal.js
+    // uses it: on a portrait phone #stage falls back to contain-fit so the
+    // M is never cropped off-frame, and this target must track that.
     const dpr = Math.min(window.devicePixelRatio || 1, 2);
-    const { scale, dx, dy } = getCoverRect(vw, vh, SOURCE_W, SOURCE_H, dpr);
+    const { scale, dx, dy } = getResponsiveCoverRect(vw, vh, SOURCE_W, SOURCE_H, dpr);
     const startX = dx + M_CROP.x * scale;
     const startY = dy + M_CROP.y * scale;
     const startW = M_CROP.w * scale;

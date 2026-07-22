@@ -1591,6 +1591,22 @@ body {
   margin-bottom: 10px;
 }
 
+/* No breakpoint existed for this grid at all before - a fixed 4 columns
+   crushed each card's 6 stats into ~85px-wide cells on a phone. Collapses
+   4 -> 2 -> 1 as width drops, same tablet/phone breakpoints the rest of
+   the site already uses. */
+@media (max-width: 900px) {
+  #core-engines-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  #core-engines-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Same "premium glass" translucent treatment as .engine-reveal-card - a
    background video dropped in behind #view-backtests later will show
    through these, by design. */

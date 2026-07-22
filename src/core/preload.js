@@ -94,11 +94,19 @@ export function preloadBg1Frames(onProgress) {
   );
 }
 
+// Same reasoning as preloadFrames/preloadSmokeFrames/preloadBg1Frames in
+// main.js: ensureLoaded() in enginesView.js used to await this in full
+// (689 frames, ~41MB) before letting the page scroll at all, so a visitor
+// on a slow connection saw nothing but a loading bar for a long time -
+// easy to mistake for the section being broken. Blocking on just frame 1
+// lets the section become scrollable almost immediately; the rest stream
+// in in the background exactly like the Home page's own sequences do.
 export function preloadEngineFrames(onProgress) {
   return preloadSequence(
     (i) => `/engines/engine_${String(i).padStart(3, "0")}.webp`,
     ENGINE_FRAME_COUNT,
-    onProgress
+    onProgress,
+    1
   );
 }
 

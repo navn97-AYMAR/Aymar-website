@@ -37,6 +37,24 @@ export function getFitHeightRect(viewportW, viewportH, imgW, imgH, dpr, zoom) {
   return getFitRect(viewportW, viewportH, imgW, imgH, "height", dpr, zoom);
 }
 
+// "Cover" fit, but falls back to "contain" on a portrait viewport. Every
+// piece of landscape-shaped source art here (the M-letter fall/flip target,
+// the engine pistons, the "Welcome to" lockup) has fixed important content
+// that a strict cover-crop would push outside the frame on a phone held
+// upright (a 1920x1080 source cover-fit against a 390x844 viewport only
+// shows the middle ~26% of the source's width). Falling back to contain
+// there instead means nothing important ever crops off-screen - the frame
+// just letterboxes (filled by the existing blurred backdrop) rather than
+// cropping. createCanvasRenderer's own default "cover" fit uses this same
+// rule for its draw() below, so any caller computing an OVERLAY position
+// (not just drawing a frame) must go through this function too, or its
+// math will disagree with what's actually on screen on a portrait phone.
+export function getResponsiveCoverRect(viewportW, viewportH, imgW, imgH, dpr, zoom) {
+  return viewportH > viewportW
+    ? getContainRect(viewportW, viewportH, imgW, imgH, dpr, zoom)
+    : getCoverRect(viewportW, viewportH, imgW, imgH, dpr, zoom);
+}
+
 function getFitRect(viewportW, viewportH, imgW, imgH, fit, dpr, zoom = ZOOM_FACTOR) {
   let base;
   if (fit === "contain") base = Math.min(viewportW / imgW, viewportH / imgH);
@@ -68,7 +86,16 @@ function getFitRect(viewportW, viewportH, imgW, imgH, fit, dpr, zoom = ZOOM_FACT
 // off since its own frames already have a designed dark background right
 // up to the edge, so the blur added nothing but a visible seam.
 export function createCanvasRenderer(canvas, { fit = "cover", zoom = ZOOM_FACTOR, backdrop = true } = {}) {
-  const fitRect = fit === "contain" ? getContainRect : fit === "height" ? getFitHeightRect : getCoverRect;
+  // Resolved per-draw (not once here) so the default "cover" fit can react
+  // to the CURRENT viewport shape every frame - see getResponsiveCoverRect's
+  // own comment for why "cover" specifically needs this instead of a fixed
+  // function reference. "contain"/"height" callers are already portrait-safe
+  // (they never crop), so they stay fixed.
+  function fitRect(viewportW, viewportH, imgW, imgH, dpr, zoom) {
+    if (fit === "contain") return getContainRect(viewportW, viewportH, imgW, imgH, dpr, zoom);
+    if (fit === "height") return getFitHeightRect(viewportW, viewportH, imgW, imgH, dpr, zoom);
+    return getResponsiveCoverRect(viewportW, viewportH, imgW, imgH, dpr, zoom);
+  }
 
   const ctx = canvas.getContext("2d", { alpha: false });
   ctx.imageSmoothingEnabled = true;

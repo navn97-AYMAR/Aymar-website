@@ -1,4 +1,4 @@
-import { getCoverRect } from "./canvasRenderer.js";
+import { getResponsiveCoverRect } from "./canvasRenderer.js";
 
 // The corrected animation now forms the candle directly behind the AYMAR
 // logo and ends with the logo already centered — no separate detach/slide
@@ -21,7 +21,12 @@ export function createReveal({ welcomeEl }) {
     // computing the unclamped rect, only accidentally matching at zoom
     // levels where dpr stays low enough to never engage the clamp).
     const dpr = Math.min(window.devicePixelRatio || 1, 2);
-    const { scale, dy } = getCoverRect(vw, vh, SOURCE_W, SOURCE_H, dpr);
+    // Responsive (not plain getCoverRect): on a portrait phone, #stage's own
+    // draw() falls back to contain-fit so the AYMAR logo never crops off
+    // frame - this must use the identical rule or "Welcome to" would float
+    // at the position the logo WOULD be at under a strict cover-crop,
+    // rather than where it actually is.
+    const { scale, dy } = getResponsiveCoverRect(vw, vh, SOURCE_W, SOURCE_H, dpr);
     const logoTopScreenY = dy + LOGO_TOP_Y * scale;
 
     welcomeEl.style.opacity = String(ease);
