@@ -107,7 +107,12 @@ export function createWhyChapter({
     const w = window.innerWidth;
     const h = window.innerHeight;
     smokeCtx.clearRect(0, 0, w, h);
-    const { scale, dx, dy } = getCoverRect(w, h, img.naturalWidth, img.naturalHeight);
+    // smokeDpr (kept fresh by resizeSmokeCanvas's own resize listener) must
+    // be passed here so this matches the SAME clamped rect actually painted
+    // — omitting it was the root cause of the 100%-vs-67%-zoom misalignment
+    // bug (see canvasRenderer.js's getFitRect: the native-resolution clamp
+    // only engages when dpr is provided).
+    const { scale, dx, dy } = getCoverRect(w, h, img.naturalWidth, img.naturalHeight, smokeDpr);
     smokeCtx.drawImage(img, dx, dy, img.naturalWidth * scale, img.naturalHeight * scale);
   }
 
@@ -140,7 +145,10 @@ export function createWhyChapter({
     const h = window.innerHeight;
     bg1Ctx.fillStyle = "#000";
     bg1Ctx.fillRect(0, 0, w, h);
-    const { scale, dx, dy } = getCoverRect(w, h, img.naturalWidth, img.naturalHeight);
+    // Same fix as drawSmoke above -- bg1Dpr must be passed so this matches
+    // the actual clamped rect, not an unclamped one that only happens to
+    // agree with it at low-dpr zoom levels.
+    const { scale, dx, dy } = getCoverRect(w, h, img.naturalWidth, img.naturalHeight, bg1Dpr);
     bg1Ctx.drawImage(img, dx, dy, img.naturalWidth * scale, img.naturalHeight * scale);
   }
 
@@ -206,7 +214,12 @@ export function createWhyChapter({
 
     const vw = window.innerWidth;
     const vh = window.innerHeight;
-    const { scale, dx, dy } = getCoverRect(vw, vh, SOURCE_W, SOURCE_H);
+    // Must match the dpr clamp #stage's own draw() uses (canvasRenderer.js)
+    // -- same root-cause fix as drawSmoke/tickBg1 above, otherwise the M's
+    // fall-landing target drifts from the M actually visible in the frame
+    // beneath it at 100% zoom (dpr=1 engages the clamp there but not here).
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const { scale, dx, dy } = getCoverRect(vw, vh, SOURCE_W, SOURCE_H, dpr);
     const startX = dx + M_CROP.x * scale;
     const startY = dy + M_CROP.y * scale;
     const startW = M_CROP.w * scale;

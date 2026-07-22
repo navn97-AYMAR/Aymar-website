@@ -34,8 +34,8 @@ const ENGINE_REVEALS = [
     pnl: "₹24,44,458",
     pf: "5.10",
     capital: "₹25,000",
-    winrate: "--",
-    dd: "--",
+    winrate: "60.4%",
+    dd: "7.16%",
   },
   {
     frame: 561, // piston 3 up
@@ -60,8 +60,8 @@ const ENGINE_REVEALS = [
     pnl: "₹6,42,479",
     pf: "2.75",
     capital: "₹25,000",
-    winrate: "--",
-    dd: "21.45%",
+    winrate: "73.54%",
+    dd: "5.75%",
   },
   {
     frame: 655, // finale - rides all the way to the last frame, no hand-off

@@ -15,7 +15,13 @@ export function createReveal({ welcomeEl }) {
 
     const vw = window.innerWidth;
     const vh = window.innerHeight;
-    const { scale, dy } = getCoverRect(vw, vh, SOURCE_W, SOURCE_H);
+    // Must match the SAME dpr clamp canvasRenderer.js's own draw() uses,
+    // or this drifts from what's actually painted on #stage at 100% zoom
+    // (dpr=1 triggers the native-resolution clamp there; this call was
+    // computing the unclamped rect, only accidentally matching at zoom
+    // levels where dpr stays low enough to never engage the clamp).
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const { scale, dy } = getCoverRect(vw, vh, SOURCE_W, SOURCE_H, dpr);
     const logoTopScreenY = dy + LOGO_TOP_Y * scale;
 
     welcomeEl.style.opacity = String(ease);
