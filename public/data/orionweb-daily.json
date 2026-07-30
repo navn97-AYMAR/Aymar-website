@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-07-29T15:45:22",
-  "market_date": "2026-07-29",
+  "generated_at": "2026-07-30T15:50:42",
+  "market_date": "2026-07-30",
   "tiers": {
     "T50K": {
       "tier": "T50K",
       "tier_label": "₹50,000",
       "capital": 50000.0,
       "today": {
-        "total_pnl": 0,
-        "total_trades": 0,
+        "total_pnl": -328.25,
+        "total_trades": 2,
         "wins": 0,
-        "losses": 0,
-        "win_rate": 0,
-        "best_trade": 0,
-        "worst_trade": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "best_trade": -130.06,
+        "worst_trade": -198.19,
         "avg_winner": 0,
-        "avg_loser": 0,
+        "avg_loser": -164.12,
         "total_profit": 0,
-        "total_loss": 0,
+        "total_loss": 328.25,
         "s2_pnl": 0,
-        "web_pnl": 0
+        "web_pnl": -328.25
       },
       "month": {
-        "total_pnl": 889.35,
-        "total_trades": 56,
+        "total_pnl": 561.1,
+        "total_trades": 58,
         "wins": 20,
-        "losses": 36,
-        "win_rate": 35.71,
+        "losses": 38,
+        "win_rate": 34.48,
         "best_trade": 2979.87,
         "worst_trade": -1354.89,
         "avg_winner": 899.12,
-        "avg_loser": -474.81,
+        "avg_loser": -458.46,
         "total_profit": 17982.49,
-        "total_loss": 17093.14,
+        "total_loss": 17421.39,
         "s2_pnl": -1696.84,
-        "web_pnl": 2586.19
+        "web_pnl": 2257.94
       },
       "daily_series": [
         {
@@ -104,13 +104,13 @@
         {
           "date": "2026-07-28",
           "pnl": -2791.03
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -328.25
         }
       ],
       "last_7_days_series": [
-        {
-          "date": "2026-07-20",
-          "pnl": -1227.87
-        },
         {
           "date": "2026-07-21",
           "pnl": 4932.11
@@ -134,10 +134,36 @@
         {
           "date": "2026-07-28",
           "pnl": -2791.03
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -328.25
         }
       ],
       "month_over_month_pct": null,
       "trade_book": [
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:10",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.65",
+          "exit": "31.45",
+          "qty": "65",
+          "pnl": -130.06,
+          "result": "LOSS"
+        },
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:00",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.75",
+          "exit": "30.5",
+          "qty": "65",
+          "pnl": -198.19,
+          "result": "LOSS"
+        },
         {
           "engine": "S2-ORION (resized)",
           "date": "2026-07-28",
@@ -761,34 +787,34 @@
       "tier_label": "₹75,000",
       "capital": 75000.0,
       "today": {
-        "total_pnl": 0,
-        "total_trades": 0,
+        "total_pnl": -328.25,
+        "total_trades": 2,
         "wins": 0,
-        "losses": 0,
-        "win_rate": 0,
-        "best_trade": 0,
-        "worst_trade": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "best_trade": -130.06,
+        "worst_trade": -198.19,
         "avg_winner": 0,
-        "avg_loser": 0,
+        "avg_loser": -164.12,
         "total_profit": 0,
-        "total_loss": 0,
+        "total_loss": 328.25,
         "s2_pnl": 0,
-        "web_pnl": 0
+        "web_pnl": -328.25
       },
       "month": {
-        "total_pnl": 2362.86,
-        "total_trades": 56,
+        "total_pnl": 2034.61,
+        "total_trades": 58,
         "wins": 20,
-        "losses": 36,
-        "win_rate": 35.71,
+        "losses": 38,
+        "win_rate": 34.48,
         "best_trade": 4190.7,
         "worst_trade": -1354.89,
         "avg_winner": 1090.73,
-        "avg_loser": -540.33,
+        "avg_loser": -520.53,
         "total_profit": 21814.69,
-        "total_loss": 19451.83,
+        "total_loss": 19780.08,
         "s2_pnl": -1696.84,
-        "web_pnl": 4059.7
+        "web_pnl": 3731.45
       },
       "daily_series": [
         {
@@ -858,13 +884,13 @@
         {
           "date": "2026-07-28",
           "pnl": -3797.11
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -328.25
         }
       ],
       "last_7_days_series": [
-        {
-          "date": "2026-07-20",
-          "pnl": -1566.7
-        },
         {
           "date": "2026-07-21",
           "pnl": 6142.94
@@ -888,10 +914,36 @@
         {
           "date": "2026-07-28",
           "pnl": -3797.11
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -328.25
         }
       ],
       "month_over_month_pct": null,
       "trade_book": [
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:10",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.65",
+          "exit": "31.45",
+          "qty": "65",
+          "pnl": -130.06,
+          "result": "LOSS"
+        },
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:00",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.75",
+          "exit": "30.5",
+          "qty": "65",
+          "pnl": -198.19,
+          "result": "LOSS"
+        },
         {
           "engine": "S2-ORION (resized)",
           "date": "2026-07-28",
@@ -1515,34 +1567,34 @@
       "tier_label": "₹1L",
       "capital": 100000.0,
       "today": {
-        "total_pnl": 0,
-        "total_trades": 0,
+        "total_pnl": -562.09,
+        "total_trades": 2,
         "wins": 0,
-        "losses": 0,
-        "win_rate": 0,
-        "best_trade": 0,
-        "worst_trade": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "best_trade": -212.91,
+        "worst_trade": -349.18,
         "avg_winner": 0,
-        "avg_loser": 0,
+        "avg_loser": -281.05,
         "total_profit": 0,
-        "total_loss": 0,
+        "total_loss": 562.09,
         "s2_pnl": 0,
-        "web_pnl": 0
+        "web_pnl": -562.09
       },
       "month": {
-        "total_pnl": 6057.11,
-        "total_trades": 56,
+        "total_pnl": 5495.02,
+        "total_trades": 58,
         "wins": 20,
-        "losses": 36,
-        "win_rate": 35.71,
+        "losses": 38,
+        "win_rate": 34.48,
         "best_trade": 6006.94,
         "worst_trade": -1654.45,
         "avg_winner": 1417.55,
-        "avg_loser": -619.27,
+        "avg_loser": -601.47,
         "total_profit": 28350.96,
-        "total_loss": 22293.85,
+        "total_loss": 22855.94,
         "s2_pnl": -1696.84,
-        "web_pnl": 7753.95
+        "web_pnl": 7191.86
       },
       "daily_series": [
         {
@@ -1612,13 +1664,13 @@
         {
           "date": "2026-07-28",
           "pnl": -4803.18
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -562.09
         }
       ],
       "last_7_days_series": [
-        {
-          "date": "2026-07-20",
-          "pnl": -1603.0
-        },
         {
           "date": "2026-07-21",
           "pnl": 7959.18
@@ -1642,10 +1694,36 @@
         {
           "date": "2026-07-28",
           "pnl": -4803.18
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -562.09
         }
       ],
       "month_over_month_pct": null,
       "trade_book": [
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:10",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.65",
+          "exit": "31.45",
+          "qty": "130",
+          "pnl": -212.91,
+          "result": "LOSS"
+        },
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:00",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.75",
+          "exit": "30.5",
+          "qty": "130",
+          "pnl": -349.18,
+          "result": "LOSS"
+        },
         {
           "engine": "S2-ORION (resized)",
           "date": "2026-07-28",
@@ -2269,34 +2347,34 @@
       "tier_label": "₹1.5L",
       "capital": 150000.0,
       "today": {
-        "total_pnl": 0,
-        "total_trades": 0,
+        "total_pnl": -795.94,
+        "total_trades": 2,
         "wins": 0,
-        "losses": 0,
-        "win_rate": 0,
-        "best_trade": 0,
-        "worst_trade": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "best_trade": -295.77,
+        "worst_trade": -500.17,
         "avg_winner": 0,
-        "avg_loser": 0,
+        "avg_loser": -397.97,
         "total_profit": 0,
-        "total_loss": 0,
+        "total_loss": 795.94,
         "s2_pnl": 0,
-        "web_pnl": 0
+        "web_pnl": -795.94
       },
       "month": {
-        "total_pnl": 10894.33,
-        "total_trades": 56,
+        "total_pnl": 10098.39,
+        "total_trades": 58,
         "wins": 21,
-        "losses": 35,
-        "win_rate": 37.5,
+        "losses": 37,
+        "win_rate": 36.21,
         "best_trade": 9034.01,
         "worst_trade": -2398.82,
         "avg_winner": 1855.26,
-        "avg_loser": -801.89,
+        "avg_loser": -780.06,
         "total_profit": 38960.52,
-        "total_loss": 28066.19,
+        "total_loss": 28862.13,
         "s2_pnl": -1696.84,
-        "web_pnl": 12591.17
+        "web_pnl": 11795.23
       },
       "daily_series": [
         {
@@ -2366,13 +2444,13 @@
         {
           "date": "2026-07-28",
           "pnl": -6279.58
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -795.94
         }
       ],
       "last_7_days_series": [
-        {
-          "date": "2026-07-20",
-          "pnl": -2244.39
-        },
         {
           "date": "2026-07-21",
           "pnl": 10986.25
@@ -2396,10 +2474,36 @@
         {
           "date": "2026-07-28",
           "pnl": -6279.58
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -795.94
         }
       ],
       "month_over_month_pct": null,
       "trade_book": [
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:10",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.65",
+          "exit": "31.45",
+          "qty": "195",
+          "pnl": -295.77,
+          "result": "LOSS"
+        },
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:00",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.75",
+          "exit": "30.5",
+          "qty": "195",
+          "pnl": -500.17,
+          "result": "LOSS"
+        },
         {
           "engine": "S2-ORION (resized)",
           "date": "2026-07-28",
@@ -3023,34 +3127,34 @@
       "tier_label": "₹2L",
       "capital": 200000.0,
       "today": {
-        "total_pnl": 0,
-        "total_trades": 0,
+        "total_pnl": -1029.79,
+        "total_trades": 2,
         "wins": 0,
-        "losses": 0,
-        "win_rate": 0,
-        "best_trade": 0,
-        "worst_trade": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "best_trade": -378.63,
+        "worst_trade": -651.16,
         "avg_winner": 0,
-        "avg_loser": 0,
+        "avg_loser": -514.89,
         "total_profit": 0,
-        "total_loss": 0,
+        "total_loss": 1029.79,
         "s2_pnl": 0,
-        "web_pnl": 0
+        "web_pnl": -1029.79
       },
       "month": {
-        "total_pnl": 20252.99,
-        "total_trades": 56,
+        "total_pnl": 19223.2,
+        "total_trades": 58,
         "wins": 21,
-        "losses": 35,
-        "win_rate": 37.5,
+        "losses": 37,
+        "win_rate": 36.21,
         "best_trade": 12061.07,
         "worst_trade": -3339.47,
         "avg_winner": 2703.28,
-        "avg_loser": -1043.31,
+        "avg_loser": -1014.75,
         "total_profit": 56768.89,
-        "total_loss": 36515.9,
+        "total_loss": 37545.69,
         "s2_pnl": 1635.65,
-        "web_pnl": 18617.34
+        "web_pnl": 17587.55
       },
       "daily_series": [
         {
@@ -3120,13 +3224,13 @@
         {
           "date": "2026-07-28",
           "pnl": -9887.9
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -1029.79
         }
       ],
       "last_7_days_series": [
-        {
-          "date": "2026-07-20",
-          "pnl": -2619.52
-        },
         {
           "date": "2026-07-21",
           "pnl": 16012.75
@@ -3150,10 +3254,36 @@
         {
           "date": "2026-07-28",
           "pnl": -9887.9
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -1029.79
         }
       ],
       "month_over_month_pct": null,
       "trade_book": [
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:10",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.65",
+          "exit": "31.45",
+          "qty": "260",
+          "pnl": -378.63,
+          "result": "LOSS"
+        },
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:00",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.75",
+          "exit": "30.5",
+          "qty": "260",
+          "pnl": -651.16,
+          "result": "LOSS"
+        },
         {
           "engine": "S2-ORION (resized)",
           "date": "2026-07-28",
@@ -3777,34 +3907,34 @@
       "tier_label": "₹2.5L",
       "capital": 250000.0,
       "today": {
-        "total_pnl": 0,
-        "total_trades": 0,
+        "total_pnl": -1263.64,
+        "total_trades": 2,
         "wins": 0,
-        "losses": 0,
-        "win_rate": 0,
-        "best_trade": 0,
-        "worst_trade": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "best_trade": -461.48,
+        "worst_trade": -802.16,
         "avg_winner": 0,
-        "avg_loser": 0,
+        "avg_loser": -631.82,
         "total_profit": 0,
-        "total_loss": 0,
+        "total_loss": 1263.64,
         "s2_pnl": 0,
-        "web_pnl": 0
+        "web_pnl": -1263.64
       },
       "month": {
-        "total_pnl": 25841.75,
-        "total_trades": 56,
+        "total_pnl": 24578.11,
+        "total_trades": 58,
         "wins": 21,
-        "losses": 35,
-        "win_rate": 37.5,
+        "losses": 37,
+        "win_rate": 36.21,
         "best_trade": 15088.14,
         "worst_trade": -4280.11,
         "avg_winner": 3302.62,
-        "avg_loser": -1243.24,
+        "avg_loser": -1210.19,
         "total_profit": 69355.1,
-        "total_loss": 43513.35,
+        "total_loss": 44776.99,
         "s2_pnl": 2337.26,
-        "web_pnl": 23504.49
+        "web_pnl": 22240.85
       },
       "daily_series": [
         {
@@ -3874,13 +4004,13 @@
         {
           "date": "2026-07-28",
           "pnl": -12240.7
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -1263.64
         }
       ],
       "last_7_days_series": [
-        {
-          "date": "2026-07-20",
-          "pnl": -3260.9
-        },
         {
           "date": "2026-07-21",
           "pnl": 19039.82
@@ -3904,10 +4034,36 @@
         {
           "date": "2026-07-28",
           "pnl": -12240.7
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -1263.64
         }
       ],
       "month_over_month_pct": null,
       "trade_book": [
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:10",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.65",
+          "exit": "31.45",
+          "qty": "325",
+          "pnl": -461.48,
+          "result": "LOSS"
+        },
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:00",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.75",
+          "exit": "30.5",
+          "qty": "325",
+          "pnl": -802.16,
+          "result": "LOSS"
+        },
         {
           "engine": "S2-ORION (resized)",
           "date": "2026-07-28",
@@ -4531,34 +4687,34 @@
       "tier_label": "₹3L",
       "capital": 300000.0,
       "today": {
-        "total_pnl": 0,
-        "total_trades": 0,
+        "total_pnl": -1731.34,
+        "total_trades": 2,
         "wins": 0,
-        "losses": 0,
-        "win_rate": 0,
-        "best_trade": 0,
-        "worst_trade": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "best_trade": -627.2,
+        "worst_trade": -1104.14,
         "avg_winner": 0,
-        "avg_loser": 0,
+        "avg_loser": -865.67,
         "total_profit": 0,
-        "total_loss": 0,
+        "total_loss": 1731.34,
         "s2_pnl": 0,
-        "web_pnl": 0
+        "web_pnl": -1731.34
       },
       "month": {
-        "total_pnl": 35806.91,
-        "total_trades": 56,
+        "total_pnl": 34075.57,
+        "total_trades": 58,
         "wins": 21,
-        "losses": 35,
-        "win_rate": 37.5,
+        "losses": 37,
+        "win_rate": 36.21,
         "best_trade": 18115.21,
         "worst_trade": -4868.96,
         "avg_winner": 4127.28,
-        "avg_loser": -1453.31,
+        "avg_loser": -1421.55,
         "total_profit": 86672.89,
-        "total_loss": 50865.98,
+        "total_loss": 52597.32,
         "s2_pnl": 7383.9,
-        "web_pnl": 28423.01
+        "web_pnl": 26691.67
       },
       "daily_series": [
         {
@@ -4628,13 +4784,13 @@
         {
           "date": "2026-07-28",
           "pnl": -14502.28
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -1731.34
         }
       ],
       "last_7_days_series": [
-        {
-          "date": "2026-07-20",
-          "pnl": -3636.03
-        },
         {
           "date": "2026-07-21",
           "pnl": 24066.33
@@ -4658,10 +4814,36 @@
         {
           "date": "2026-07-28",
           "pnl": -14502.28
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -1731.34
         }
       ],
       "month_over_month_pct": null,
       "trade_book": [
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:10",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.65",
+          "exit": "31.45",
+          "qty": "455",
+          "pnl": -627.2,
+          "result": "LOSS"
+        },
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:00",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.75",
+          "exit": "30.5",
+          "qty": "455",
+          "pnl": -1104.14,
+          "result": "LOSS"
+        },
         {
           "engine": "S2-ORION (resized)",
           "date": "2026-07-28",
@@ -5285,34 +5467,34 @@
       "tier_label": "₹3.5L",
       "capital": 350000.0,
       "today": {
-        "total_pnl": 0,
-        "total_trades": 0,
+        "total_pnl": -1965.18,
+        "total_trades": 2,
         "wins": 0,
-        "losses": 0,
-        "win_rate": 0,
-        "best_trade": 0,
-        "worst_trade": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "best_trade": -710.05,
+        "worst_trade": -1255.13,
         "avg_winner": 0,
-        "avg_loser": 0,
+        "avg_loser": -982.59,
         "total_profit": 0,
-        "total_loss": 0,
+        "total_loss": 1965.18,
         "s2_pnl": 0,
-        "web_pnl": 0
+        "web_pnl": -1965.18
       },
       "month": {
-        "total_pnl": 44909.91,
-        "total_trades": 56,
+        "total_pnl": 42944.73,
+        "total_trades": 58,
         "wins": 21,
-        "losses": 35,
-        "win_rate": 37.5,
+        "losses": 37,
+        "win_rate": 36.21,
         "best_trade": 21142.28,
         "worst_trade": -5691.08,
         "avg_winner": 4905.4,
-        "avg_loser": -1660.1,
+        "avg_loser": -1623.48,
         "total_profit": 103013.41,
-        "total_loss": 58103.5,
+        "total_loss": 60068.68,
         "s2_pnl": 11644.95,
-        "web_pnl": 33264.96
+        "web_pnl": 31299.78
       },
       "daily_series": [
         {
@@ -5382,13 +5564,13 @@
         {
           "date": "2026-07-28",
           "pnl": -16855.08
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -1965.18
         }
       ],
       "last_7_days_series": [
-        {
-          "date": "2026-07-20",
-          "pnl": -4277.4
-        },
         {
           "date": "2026-07-21",
           "pnl": 29092.84
@@ -5412,10 +5594,36 @@
         {
           "date": "2026-07-28",
           "pnl": -16855.08
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -1965.18
         }
       ],
       "month_over_month_pct": null,
       "trade_book": [
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:10",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.65",
+          "exit": "31.45",
+          "qty": "520",
+          "pnl": -710.05,
+          "result": "LOSS"
+        },
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:00",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.75",
+          "exit": "30.5",
+          "qty": "520",
+          "pnl": -1255.13,
+          "result": "LOSS"
+        },
         {
           "engine": "S2-ORION (resized)",
           "date": "2026-07-28",
@@ -6039,34 +6247,34 @@
       "tier_label": "₹4L",
       "capital": 400000.0,
       "today": {
-        "total_pnl": 0,
-        "total_trades": 0,
+        "total_pnl": -2199.03,
+        "total_trades": 2,
         "wins": 0,
-        "losses": 0,
-        "win_rate": 0,
-        "best_trade": 0,
-        "worst_trade": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "best_trade": -792.91,
+        "worst_trade": -1406.12,
         "avg_winner": 0,
-        "avg_loser": 0,
+        "avg_loser": -1099.51,
         "total_profit": 0,
-        "total_loss": 0,
+        "total_loss": 2199.03,
         "s2_pnl": 0,
-        "web_pnl": 0
+        "web_pnl": -2199.03
       },
       "month": {
-        "total_pnl": 49776.22,
-        "total_trades": 56,
+        "total_pnl": 47577.19,
+        "total_trades": 58,
         "wins": 21,
-        "losses": 35,
-        "win_rate": 37.5,
+        "losses": 37,
+        "win_rate": 36.21,
         "best_trade": 24169.35,
         "worst_trade": -6631.73,
         "avg_winner": 5511.23,
-        "avg_loser": -1884.56,
+        "avg_loser": -1842.13,
         "total_profit": 115735.92,
-        "total_loss": 65959.7,
+        "total_loss": 68158.73,
         "s2_pnl": 12457.58,
-        "web_pnl": 37318.64
+        "web_pnl": 35119.61
       },
       "daily_series": [
         {
@@ -6136,13 +6344,13 @@
         {
           "date": "2026-07-28",
           "pnl": -19586.97
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -2199.03
         }
       ],
       "last_7_days_series": [
-        {
-          "date": "2026-07-20",
-          "pnl": -4759.54
-        },
         {
           "date": "2026-07-21",
           "pnl": 32119.91
@@ -6166,10 +6374,36 @@
         {
           "date": "2026-07-28",
           "pnl": -19586.97
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -2199.03
         }
       ],
       "month_over_month_pct": null,
       "trade_book": [
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:10",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.65",
+          "exit": "31.45",
+          "qty": "585",
+          "pnl": -792.91,
+          "result": "LOSS"
+        },
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:00",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.75",
+          "exit": "30.5",
+          "qty": "585",
+          "pnl": -1406.12,
+          "result": "LOSS"
+        },
         {
           "engine": "S2-ORION (resized)",
           "date": "2026-07-28",
@@ -6793,34 +7027,34 @@
       "tier_label": "₹4.5L",
       "capital": 450000.0,
       "today": {
-        "total_pnl": 0,
-        "total_trades": 0,
+        "total_pnl": -2432.87,
+        "total_trades": 2,
         "wins": 0,
-        "losses": 0,
-        "win_rate": 0,
-        "best_trade": 0,
-        "worst_trade": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "best_trade": -875.76,
+        "worst_trade": -1557.11,
         "avg_winner": 0,
-        "avg_loser": 0,
+        "avg_loser": -1216.43,
         "total_profit": 0,
-        "total_loss": 0,
+        "total_loss": 2432.87,
         "s2_pnl": 0,
-        "web_pnl": 0
+        "web_pnl": -2432.87
       },
       "month": {
-        "total_pnl": 58356.47,
-        "total_trades": 56,
+        "total_pnl": 55923.6,
+        "total_trades": 58,
         "wins": 21,
-        "losses": 35,
-        "win_rate": 37.5,
+        "losses": 37,
+        "win_rate": 36.21,
         "best_trade": 27196.42,
         "worst_trade": -7572.38,
         "avg_winner": 6297.51,
-        "avg_loser": -2111.18,
+        "avg_loser": -2062.81,
         "total_profit": 132247.66,
-        "total_loss": 73891.19,
+        "total_loss": 76324.06,
         "s2_pnl": 16317.21,
-        "web_pnl": 42039.26
+        "web_pnl": 39606.39
       },
       "daily_series": [
         {
@@ -6890,13 +7124,13 @@
         {
           "date": "2026-07-28",
           "pnl": -22475.55
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -2432.87
         }
       ],
       "last_7_days_series": [
-        {
-          "date": "2026-07-20",
-          "pnl": -5098.38
-        },
         {
           "date": "2026-07-21",
           "pnl": 37146.41
@@ -6920,10 +7154,36 @@
         {
           "date": "2026-07-28",
           "pnl": -22475.55
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -2432.87
         }
       ],
       "month_over_month_pct": null,
       "trade_book": [
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:10",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.65",
+          "exit": "31.45",
+          "qty": "650",
+          "pnl": -875.76,
+          "result": "LOSS"
+        },
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:00",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.75",
+          "exit": "30.5",
+          "qty": "650",
+          "pnl": -1557.11,
+          "result": "LOSS"
+        },
         {
           "engine": "S2-ORION (resized)",
           "date": "2026-07-28",
@@ -7547,34 +7807,34 @@
       "tier_label": "₹5L",
       "capital": 500000.0,
       "today": {
-        "total_pnl": 0,
-        "total_trades": 0,
+        "total_pnl": -2666.72,
+        "total_trades": 2,
         "wins": 0,
-        "losses": 0,
-        "win_rate": 0,
-        "best_trade": 0,
-        "worst_trade": 0,
+        "losses": 2,
+        "win_rate": 0.0,
+        "best_trade": -958.62,
+        "worst_trade": -1708.1,
         "avg_winner": 0,
-        "avg_loser": 0,
+        "avg_loser": -1333.36,
         "total_profit": 0,
-        "total_loss": 0,
+        "total_loss": 2666.72,
         "s2_pnl": 0,
-        "web_pnl": 0
+        "web_pnl": -2666.72
       },
       "month": {
-        "total_pnl": 64510.2,
-        "total_trades": 56,
+        "total_pnl": 61843.48,
+        "total_trades": 58,
         "wins": 21,
-        "losses": 35,
-        "win_rate": 37.5,
+        "losses": 37,
+        "win_rate": 36.21,
         "best_trade": 30223.48,
         "worst_trade": -8513.03,
         "avg_winner": 6998.56,
-        "avg_loser": -2355.99,
+        "avg_loser": -2300.71,
         "total_profit": 146969.84,
-        "total_loss": 82459.64,
+        "total_loss": 85126.36,
         "s2_pnl": 15685.8,
-        "web_pnl": 48824.4
+        "web_pnl": 46157.68
       },
       "daily_series": [
         {
@@ -7644,13 +7904,13 @@
         {
           "date": "2026-07-28",
           "pnl": -25548.11
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -2666.72
         }
       ],
       "last_7_days_series": [
-        {
-          "date": "2026-07-20",
-          "pnl": -6369.3
-        },
         {
           "date": "2026-07-21",
           "pnl": 40173.47
@@ -7674,10 +7934,36 @@
         {
           "date": "2026-07-28",
           "pnl": -25548.11
+        },
+        {
+          "date": "2026-07-30",
+          "pnl": -2666.72
         }
       ],
       "month_over_month_pct": null,
       "trade_book": [
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:10",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.65",
+          "exit": "31.45",
+          "qty": "715",
+          "pnl": -958.62,
+          "result": "LOSS"
+        },
+        {
+          "engine": "ORION WEB",
+          "date": "2026-07-30",
+          "time": "11:00",
+          "symbol": "NIFTY2680424450CE",
+          "entry": "32.75",
+          "exit": "30.5",
+          "qty": "715",
+          "pnl": -1708.1,
+          "result": "LOSS"
+        },
         {
           "engine": "S2-ORION (resized)",
           "date": "2026-07-28",
