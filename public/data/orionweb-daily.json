@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T19:38:38",
-  "market_date": "2026-08-28",
+  "generated_at": "2026-09-03T15:45:00",
+  "market_date": "2026-09-03",
   "tiers": {
     "T50K": {
       "tier": "T50K",
@@ -22,46 +22,21 @@
         "web_pnl": 0
       },
       "month": {
-        "total_pnl": -5923.6,
-        "total_trades": 20,
-        "wins": 5,
-        "losses": 15,
-        "win_rate": 25.0,
-        "best_trade": 541.27,
-        "worst_trade": -1452.28,
-        "avg_winner": 263.72,
-        "avg_loser": -482.81,
-        "total_profit": 1318.6,
-        "total_loss": 7242.2,
-        "s2_pnl": -3621.8,
-        "web_pnl": -2301.8
+        "total_pnl": 0,
+        "total_trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "best_trade": 0,
+        "worst_trade": 0,
+        "avg_winner": 0,
+        "avg_loser": 0,
+        "total_profit": 0,
+        "total_loss": 0,
+        "s2_pnl": 0,
+        "web_pnl": 0
       },
-      "daily_series": [
-        {
-          "date": "2026-08-03",
-          "pnl": 1141.05
-        },
-        {
-          "date": "2026-08-04",
-          "pnl": -883.46
-        },
-        {
-          "date": "2026-08-05",
-          "pnl": -1789.8
-        },
-        {
-          "date": "2026-08-06",
-          "pnl": -1404.27
-        },
-        {
-          "date": "2026-08-07",
-          "pnl": -358.55
-        },
-        {
-          "date": "2026-08-11",
-          "pnl": -2628.57
-        }
-      ],
+      "daily_series": [],
       "last_7_days_series": [
         {
           "date": "2026-07-31",
@@ -92,229 +67,8 @@
           "pnl": -2628.57
         }
       ],
-      "month_over_month_pct": -590.69,
-      "trade_book": [
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY 24450.0PE",
-          "entry": "38.1",
-          "exit": "30.85",
-          "qty": "65",
-          "pnl": -568.21,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY2681124450PE",
-          "entry": "38.25",
-          "exit": "30.75",
-          "qty": "65",
-          "pnl": -539.63,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY 24500.0PE",
-          "entry": "73.0",
-          "exit": "65.5",
-          "qty": "65",
-          "pnl": -634.98,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY2681124400PE",
-          "entry": "31.95",
-          "exit": "19.1",
-          "qty": "65",
-          "pnl": -885.75,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY 24550.0PE",
-          "entry": "108.7",
-          "exit": "105.15",
-          "qty": "65",
-          "pnl": -363.67,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "33.5",
-          "exit": "32.15",
-          "qty": "65",
-          "pnl": -139.92,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY 24600.0PE",
-          "entry": "122.0",
-          "exit": "127.0",
-          "qty": "65",
-          "pnl": 177.55,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "31.15",
-          "exit": "31.45",
-          "qty": "65",
-          "pnl": -32.51,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "152.0",
-          "exit": "144.75",
-          "qty": "65",
-          "pnl": -637.3,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "30.65",
-          "exit": "28.55",
-          "qty": "65",
-          "pnl": -188.14,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "147.0",
-          "exit": "142.7",
-          "qty": "65",
-          "pnl": -442.85,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "29.0",
-          "exit": "27.7",
-          "qty": "65",
-          "pnl": -135.98,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "154.05",
-          "exit": "134.2",
-          "qty": "65",
-          "pnl": -1452.28,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "31.75",
-          "exit": "27.35",
-          "qty": "65",
-          "pnl": -337.52,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "29.05",
-          "exit": "23.4",
-          "qty": "65",
-          "pnl": -452.29,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "29.0",
-          "exit": "23.15",
-          "qty": "65",
-          "pnl": -431.17,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY 24600.0CE",
-          "entry": "56.3",
-          "exit": "61.0",
-          "qty": "65",
-          "pnl": 210.96,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "35.9",
-          "exit": "39.0",
-          "qty": "65",
-          "pnl": 148.41,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY 24550.0CE",
-          "entry": "71.0",
-          "exit": "81.0",
-          "qty": "65",
-          "pnl": 541.27,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "28.25",
-          "exit": "32.75",
-          "qty": "65",
-          "pnl": 240.41,
-          "result": "WIN"
-        }
-      ]
+      "month_over_month_pct": 100.0,
+      "trade_book": []
     },
     "T75K": {
       "tier": "T75K",
@@ -336,46 +90,21 @@
         "web_pnl": 0
       },
       "month": {
-        "total_pnl": -5635.99,
-        "total_trades": 20,
-        "wins": 5,
-        "losses": 15,
-        "win_rate": 25.0,
-        "best_trade": 541.27,
-        "worst_trade": -1452.28,
-        "avg_winner": 321.24,
-        "avg_loser": -482.81,
-        "total_profit": 1606.21,
-        "total_loss": 7242.2,
-        "s2_pnl": -3621.8,
-        "web_pnl": -2014.19
+        "total_pnl": 0,
+        "total_trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "best_trade": 0,
+        "worst_trade": 0,
+        "avg_winner": 0,
+        "avg_loser": 0,
+        "total_profit": 0,
+        "total_loss": 0,
+        "s2_pnl": 0,
+        "web_pnl": 0
       },
-      "daily_series": [
-        {
-          "date": "2026-08-03",
-          "pnl": 1428.66
-        },
-        {
-          "date": "2026-08-04",
-          "pnl": -883.46
-        },
-        {
-          "date": "2026-08-05",
-          "pnl": -1789.8
-        },
-        {
-          "date": "2026-08-06",
-          "pnl": -1404.27
-        },
-        {
-          "date": "2026-08-07",
-          "pnl": -358.55
-        },
-        {
-          "date": "2026-08-11",
-          "pnl": -2628.57
-        }
-      ],
+      "daily_series": [],
       "last_7_days_series": [
         {
           "date": "2026-07-31",
@@ -406,229 +135,8 @@
           "pnl": -2628.57
         }
       ],
-      "month_over_month_pct": -278.7,
-      "trade_book": [
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY 24450.0PE",
-          "entry": "38.1",
-          "exit": "30.85",
-          "qty": "65",
-          "pnl": -568.21,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY2681124450PE",
-          "entry": "38.25",
-          "exit": "30.75",
-          "qty": "65",
-          "pnl": -539.63,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY 24500.0PE",
-          "entry": "73.0",
-          "exit": "65.5",
-          "qty": "65",
-          "pnl": -634.98,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY2681124400PE",
-          "entry": "31.95",
-          "exit": "19.1",
-          "qty": "65",
-          "pnl": -885.75,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY 24550.0PE",
-          "entry": "108.7",
-          "exit": "105.15",
-          "qty": "65",
-          "pnl": -363.67,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "33.5",
-          "exit": "32.15",
-          "qty": "65",
-          "pnl": -139.92,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY 24600.0PE",
-          "entry": "122.0",
-          "exit": "127.0",
-          "qty": "65",
-          "pnl": 177.55,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "31.15",
-          "exit": "31.45",
-          "qty": "65",
-          "pnl": -32.51,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "152.0",
-          "exit": "144.75",
-          "qty": "65",
-          "pnl": -637.3,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "30.65",
-          "exit": "28.55",
-          "qty": "65",
-          "pnl": -188.14,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "147.0",
-          "exit": "142.7",
-          "qty": "65",
-          "pnl": -442.85,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "29.0",
-          "exit": "27.7",
-          "qty": "65",
-          "pnl": -135.98,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "154.05",
-          "exit": "134.2",
-          "qty": "65",
-          "pnl": -1452.28,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "31.75",
-          "exit": "27.35",
-          "qty": "65",
-          "pnl": -337.52,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "29.05",
-          "exit": "23.4",
-          "qty": "65",
-          "pnl": -452.29,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "29.0",
-          "exit": "23.15",
-          "qty": "65",
-          "pnl": -431.17,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY 24600.0CE",
-          "entry": "56.3",
-          "exit": "61.0",
-          "qty": "65",
-          "pnl": 210.96,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "35.9",
-          "exit": "39.0",
-          "qty": "65",
-          "pnl": 148.41,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY 24550.0CE",
-          "entry": "71.0",
-          "exit": "81.0",
-          "qty": "65",
-          "pnl": 541.27,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "28.25",
-          "exit": "32.75",
-          "qty": "130",
-          "pnl": 528.02,
-          "result": "WIN"
-        }
-      ]
+      "month_over_month_pct": 100.0,
+      "trade_book": []
     },
     "T1L": {
       "tier": "T1L",
@@ -650,46 +158,21 @@
         "web_pnl": 0
       },
       "month": {
-        "total_pnl": -7753.42,
-        "total_trades": 20,
-        "wins": 5,
-        "losses": 15,
-        "win_rate": 25.0,
-        "best_trade": 541.27,
-        "worst_trade": -1724.3,
-        "avg_winner": 360.36,
-        "avg_loser": -637.02,
-        "total_profit": 1801.82,
-        "total_loss": 9555.24,
-        "s2_pnl": -3621.8,
-        "web_pnl": -4131.62
+        "total_pnl": 0,
+        "total_trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "best_trade": 0,
+        "worst_trade": 0,
+        "avg_winner": 0,
+        "avg_loser": 0,
+        "total_profit": 0,
+        "total_loss": 0,
+        "s2_pnl": 0,
+        "web_pnl": 0
       },
-      "daily_series": [
-        {
-          "date": "2026-08-03",
-          "pnl": 1624.27
-        },
-        {
-          "date": "2026-08-04",
-          "pnl": -1267.43
-        },
-        {
-          "date": "2026-08-05",
-          "pnl": -2080.12
-        },
-        {
-          "date": "2026-08-06",
-          "pnl": -1634.0
-        },
-        {
-          "date": "2026-08-07",
-          "pnl": -436.59
-        },
-        {
-          "date": "2026-08-11",
-          "pnl": -3959.55
-        }
-      ],
+      "daily_series": [],
       "last_7_days_series": [
         {
           "date": "2026-07-31",
@@ -720,229 +203,8 @@
           "pnl": -3959.55
         }
       ],
-      "month_over_month_pct": -209.4,
-      "trade_book": [
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY 24450.0PE",
-          "entry": "38.1",
-          "exit": "30.85",
-          "qty": "65",
-          "pnl": -568.21,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY2681124450PE",
-          "entry": "38.25",
-          "exit": "30.75",
-          "qty": "130",
-          "pnl": -1032.06,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY 24500.0PE",
-          "entry": "73.0",
-          "exit": "65.5",
-          "qty": "65",
-          "pnl": -634.98,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY2681124400PE",
-          "entry": "31.95",
-          "exit": "19.1",
-          "qty": "130",
-          "pnl": -1724.3,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY 24550.0PE",
-          "entry": "108.7",
-          "exit": "105.15",
-          "qty": "65",
-          "pnl": -363.67,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "33.5",
-          "exit": "32.15",
-          "qty": "130",
-          "pnl": -232.64,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY 24600.0PE",
-          "entry": "122.0",
-          "exit": "127.0",
-          "qty": "65",
-          "pnl": 177.55,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "31.15",
-          "exit": "31.45",
-          "qty": "130",
-          "pnl": -17.83,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "152.0",
-          "exit": "144.75",
-          "qty": "65",
-          "pnl": -637.3,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "30.65",
-          "exit": "28.55",
-          "qty": "130",
-          "pnl": -329.08,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "147.0",
-          "exit": "142.7",
-          "qty": "65",
-          "pnl": -442.85,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "29.0",
-          "exit": "27.7",
-          "qty": "130",
-          "pnl": -224.77,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "154.05",
-          "exit": "134.2",
-          "qty": "65",
-          "pnl": -1452.28,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "31.75",
-          "exit": "27.35",
-          "qty": "130",
-          "pnl": -627.84,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "29.05",
-          "exit": "23.4",
-          "qty": "65",
-          "pnl": -452.29,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "29.0",
-          "exit": "23.15",
-          "qty": "130",
-          "pnl": -815.14,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY 24600.0CE",
-          "entry": "56.3",
-          "exit": "61.0",
-          "qty": "65",
-          "pnl": 210.96,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "35.9",
-          "exit": "39.0",
-          "qty": "130",
-          "pnl": 344.02,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY 24550.0CE",
-          "entry": "71.0",
-          "exit": "81.0",
-          "qty": "65",
-          "pnl": 541.27,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "28.25",
-          "exit": "32.75",
-          "qty": "130",
-          "pnl": 528.02,
-          "result": "WIN"
-        }
-      ]
+      "month_over_month_pct": 100.0,
+      "trade_book": []
     },
     "T1_5L": {
       "tier": "T1_5L",
@@ -964,46 +226,21 @@
         "web_pnl": 0
       },
       "month": {
-        "total_pnl": -10221.68,
-        "total_trades": 20,
-        "wins": 5,
-        "losses": 15,
-        "win_rate": 25.0,
-        "best_trade": 1103.24,
-        "worst_trade": -2562.85,
-        "avg_winner": 514.53,
-        "avg_loser": -852.96,
-        "total_profit": 2572.65,
-        "total_loss": 12794.33,
-        "s2_pnl": -4547.9,
-        "web_pnl": -5673.78
+        "total_pnl": 0,
+        "total_trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "best_trade": 0,
+        "worst_trade": 0,
+        "avg_winner": 0,
+        "avg_loser": 0,
+        "total_profit": 0,
+        "total_loss": 0,
+        "s2_pnl": 0,
+        "web_pnl": 0
       },
-      "daily_series": [
-        {
-          "date": "2026-08-03",
-          "pnl": 2395.1
-        },
-        {
-          "date": "2026-08-04",
-          "pnl": -2056.49
-        },
-        {
-          "date": "2026-08-05",
-          "pnl": -2370.44
-        },
-        {
-          "date": "2026-08-06",
-          "pnl": -1863.71
-        },
-        {
-          "date": "2026-08-07",
-          "pnl": -514.61
-        },
-        {
-          "date": "2026-08-11",
-          "pnl": -5811.53
-        }
-      ],
+      "daily_series": [],
       "last_7_days_series": [
         {
           "date": "2026-07-31",
@@ -1034,229 +271,8 @@
           "pnl": -5811.53
         }
       ],
-      "month_over_month_pct": -184.03,
-      "trade_book": [
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY 24450.0PE",
-          "entry": "38.1",
-          "exit": "30.85",
-          "qty": "130",
-          "pnl": -1089.21,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY2681124450PE",
-          "entry": "38.25",
-          "exit": "30.75",
-          "qty": "195",
-          "pnl": -1524.49,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY 24500.0PE",
-          "entry": "73.0",
-          "exit": "65.5",
-          "qty": "65",
-          "pnl": -634.98,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY2681124400PE",
-          "entry": "31.95",
-          "exit": "19.1",
-          "qty": "195",
-          "pnl": -2562.85,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY 24550.0PE",
-          "entry": "108.7",
-          "exit": "105.15",
-          "qty": "65",
-          "pnl": -363.67,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "33.5",
-          "exit": "32.15",
-          "qty": "195",
-          "pnl": -325.35,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY 24600.0PE",
-          "entry": "122.0",
-          "exit": "127.0",
-          "qty": "65",
-          "pnl": 177.55,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "31.15",
-          "exit": "31.45",
-          "qty": "195",
-          "pnl": -3.14,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "152.0",
-          "exit": "144.75",
-          "qty": "65",
-          "pnl": -637.3,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "30.65",
-          "exit": "28.55",
-          "qty": "195",
-          "pnl": -470.01,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "147.0",
-          "exit": "142.7",
-          "qty": "65",
-          "pnl": -442.85,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "29.0",
-          "exit": "27.7",
-          "qty": "195",
-          "pnl": -313.55,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "154.05",
-          "exit": "134.2",
-          "qty": "65",
-          "pnl": -1452.28,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "31.75",
-          "exit": "27.35",
-          "qty": "195",
-          "pnl": -918.16,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "29.05",
-          "exit": "23.4",
-          "qty": "130",
-          "pnl": -857.39,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "29.0",
-          "exit": "23.15",
-          "qty": "195",
-          "pnl": -1199.1,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY 24600.0CE",
-          "entry": "56.3",
-          "exit": "61.0",
-          "qty": "65",
-          "pnl": 210.96,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "35.9",
-          "exit": "39.0",
-          "qty": "195",
-          "pnl": 539.63,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY 24550.0CE",
-          "entry": "71.0",
-          "exit": "81.0",
-          "qty": "65",
-          "pnl": 541.27,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "28.25",
-          "exit": "32.75",
-          "qty": "260",
-          "pnl": 1103.24,
-          "result": "WIN"
-        }
-      ]
+      "month_over_month_pct": 100.0,
+      "trade_book": []
     },
     "T2L": {
       "tier": "T2L",
@@ -1278,46 +294,21 @@
         "web_pnl": 0
       },
       "month": {
-        "total_pnl": -13070.28,
-        "total_trades": 20,
-        "wins": 6,
-        "losses": 14,
-        "win_rate": 30.0,
-        "best_trade": 1390.84,
-        "worst_trade": -3401.4,
-        "avg_winner": 511.23,
-        "avg_loser": -1152.69,
-        "total_profit": 3067.41,
-        "total_loss": 16137.69,
-        "s2_pnl": -4952.99,
-        "web_pnl": -8117.29
+        "total_pnl": 0,
+        "total_trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "best_trade": 0,
+        "worst_trade": 0,
+        "avg_winner": 0,
+        "avg_loser": 0,
+        "total_profit": 0,
+        "total_loss": 0,
+        "s2_pnl": 0,
+        "web_pnl": 0
       },
-      "daily_series": [
-        {
-          "date": "2026-08-03",
-          "pnl": 2878.31
-        },
-        {
-          "date": "2026-08-04",
-          "pnl": -3229.52
-        },
-        {
-          "date": "2026-08-05",
-          "pnl": -2660.76
-        },
-        {
-          "date": "2026-08-06",
-          "pnl": -2323.16
-        },
-        {
-          "date": "2026-08-07",
-          "pnl": -592.64
-        },
-        {
-          "date": "2026-08-11",
-          "pnl": -7142.51
-        }
-      ],
+      "daily_series": [],
       "last_7_days_series": [
         {
           "date": "2026-07-31",
@@ -1348,229 +339,8 @@
           "pnl": -7142.51
         }
       ],
-      "month_over_month_pct": -158.78,
-      "trade_book": [
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY 24450.0PE",
-          "entry": "38.1",
-          "exit": "30.85",
-          "qty": "130",
-          "pnl": -1089.21,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY2681124450PE",
-          "entry": "38.25",
-          "exit": "30.75",
-          "qty": "260",
-          "pnl": -2016.92,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY 24500.0PE",
-          "entry": "73.0",
-          "exit": "65.5",
-          "qty": "65",
-          "pnl": -634.98,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY2681124400PE",
-          "entry": "31.95",
-          "exit": "19.1",
-          "qty": "260",
-          "pnl": -3401.4,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY 24550.0PE",
-          "entry": "108.7",
-          "exit": "105.15",
-          "qty": "65",
-          "pnl": -363.67,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "33.5",
-          "exit": "32.15",
-          "qty": "260",
-          "pnl": -418.07,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY 24600.0PE",
-          "entry": "122.0",
-          "exit": "127.0",
-          "qty": "65",
-          "pnl": 177.55,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "31.15",
-          "exit": "31.45",
-          "qty": "260",
-          "pnl": 11.55,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "152.0",
-          "exit": "144.75",
-          "qty": "65",
-          "pnl": -637.3,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "30.65",
-          "exit": "28.55",
-          "qty": "325",
-          "pnl": -751.89,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "147.0",
-          "exit": "142.7",
-          "qty": "65",
-          "pnl": -442.85,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "29.0",
-          "exit": "27.7",
-          "qty": "325",
-          "pnl": -491.12,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "154.05",
-          "exit": "134.2",
-          "qty": "65",
-          "pnl": -1452.28,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "31.75",
-          "exit": "27.35",
-          "qty": "260",
-          "pnl": -1208.48,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "29.05",
-          "exit": "23.4",
-          "qty": "195",
-          "pnl": -1262.48,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "29.0",
-          "exit": "23.15",
-          "qty": "325",
-          "pnl": -1967.04,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY 24600.0CE",
-          "entry": "56.3",
-          "exit": "61.0",
-          "qty": "65",
-          "pnl": 210.96,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "35.9",
-          "exit": "39.0",
-          "qty": "260",
-          "pnl": 735.24,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY 24550.0CE",
-          "entry": "71.0",
-          "exit": "81.0",
-          "qty": "65",
-          "pnl": 541.27,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "28.25",
-          "exit": "32.75",
-          "qty": "325",
-          "pnl": 1390.84,
-          "result": "WIN"
-        }
-      ]
+      "month_over_month_pct": 100.0,
+      "trade_book": []
     },
     "T2_5L": {
       "tier": "T2_5L",
@@ -1592,46 +362,21 @@
         "web_pnl": 0
       },
       "month": {
-        "total_pnl": -16682.23,
-        "total_trades": 20,
-        "wins": 6,
-        "losses": 14,
-        "win_rate": 30.0,
-        "best_trade": 1678.45,
-        "worst_trade": -5078.5,
-        "avg_winner": 639.69,
-        "avg_loser": -1465.74,
-        "total_profit": 3838.16,
-        "total_loss": 20520.39,
-        "s2_pnl": -5620.93,
-        "web_pnl": -11061.3
+        "total_pnl": 0,
+        "total_trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "best_trade": 0,
+        "worst_trade": 0,
+        "avg_winner": 0,
+        "avg_loser": 0,
+        "total_profit": 0,
+        "total_loss": 0,
+        "s2_pnl": 0,
+        "web_pnl": 0
       },
-      "daily_series": [
-        {
-          "date": "2026-08-03",
-          "pnl": 3619.69
-        },
-        {
-          "date": "2026-08-04",
-          "pnl": -4018.58
-        },
-        {
-          "date": "2026-08-05",
-          "pnl": -3241.4
-        },
-        {
-          "date": "2026-08-06",
-          "pnl": -2552.89
-        },
-        {
-          "date": "2026-08-07",
-          "pnl": -655.99
-        },
-        {
-          "date": "2026-08-11",
-          "pnl": -9833.06
-        }
-      ],
+      "daily_series": [],
       "last_7_days_series": [
         {
           "date": "2026-07-31",
@@ -1662,229 +407,8 @@
           "pnl": -9833.06
         }
       ],
-      "month_over_month_pct": -158.46,
-      "trade_book": [
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY 24450.0PE",
-          "entry": "38.1",
-          "exit": "30.85",
-          "qty": "195",
-          "pnl": -1610.22,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY2681124450PE",
-          "entry": "38.25",
-          "exit": "30.75",
-          "qty": "325",
-          "pnl": -2509.36,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY 24500.0PE",
-          "entry": "73.0",
-          "exit": "65.5",
-          "qty": "65",
-          "pnl": -634.98,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY2681124400PE",
-          "entry": "31.95",
-          "exit": "19.1",
-          "qty": "390",
-          "pnl": -5078.5,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY 24550.0PE",
-          "entry": "108.7",
-          "exit": "105.15",
-          "qty": "65",
-          "pnl": -363.67,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "33.5",
-          "exit": "32.15",
-          "qty": "325",
-          "pnl": -510.79,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY 24600.0PE",
-          "entry": "122.0",
-          "exit": "127.0",
-          "qty": "65",
-          "pnl": 177.55,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "31.15",
-          "exit": "31.45",
-          "qty": "390",
-          "pnl": 40.92,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "152.0",
-          "exit": "144.75",
-          "qty": "65",
-          "pnl": -637.3,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "30.65",
-          "exit": "28.55",
-          "qty": "390",
-          "pnl": -892.83,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "147.0",
-          "exit": "142.7",
-          "qty": "65",
-          "pnl": -442.85,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "29.0",
-          "exit": "27.7",
-          "qty": "390",
-          "pnl": -579.91,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "154.05",
-          "exit": "134.2",
-          "qty": "65",
-          "pnl": -1452.28,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "31.75",
-          "exit": "27.35",
-          "qty": "390",
-          "pnl": -1789.12,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "29.05",
-          "exit": "23.4",
-          "qty": "260",
-          "pnl": -1667.57,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "29.0",
-          "exit": "23.15",
-          "qty": "390",
-          "pnl": -2351.01,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY 24600.0CE",
-          "entry": "56.3",
-          "exit": "61.0",
-          "qty": "130",
-          "pnl": 469.12,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "35.9",
-          "exit": "39.0",
-          "qty": "325",
-          "pnl": 930.85,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY 24550.0CE",
-          "entry": "71.0",
-          "exit": "81.0",
-          "qty": "65",
-          "pnl": 541.27,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "28.25",
-          "exit": "32.75",
-          "qty": "390",
-          "pnl": 1678.45,
-          "result": "WIN"
-        }
-      ]
+      "month_over_month_pct": 100.0,
+      "trade_book": []
     },
     "T3L": {
       "tier": "T3L",
@@ -1906,46 +430,21 @@
         "web_pnl": 0
       },
       "month": {
-        "total_pnl": -19149.84,
-        "total_trades": 20,
-        "wins": 6,
-        "losses": 14,
-        "win_rate": 30.0,
-        "best_trade": 2253.67,
-        "worst_trade": -5917.05,
-        "avg_winner": 868.69,
-        "avg_loser": -1740.14,
-        "total_profit": 5212.15,
-        "total_loss": 24361.99,
-        "s2_pnl": -6546.36,
-        "web_pnl": -12603.48
+        "total_pnl": 0,
+        "total_trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "best_trade": 0,
+        "worst_trade": 0,
+        "avg_winner": 0,
+        "avg_loser": 0,
+        "total_profit": 0,
+        "total_loss": 0,
+        "s2_pnl": 0,
+        "web_pnl": 0
       },
-      "daily_series": [
-        {
-          "date": "2026-08-03",
-          "pnl": 4978.99
-        },
-        {
-          "date": "2026-08-04",
-          "pnl": -4807.65
-        },
-        {
-          "date": "2026-08-05",
-          "pnl": -3531.72
-        },
-        {
-          "date": "2026-08-06",
-          "pnl": -2782.6
-        },
-        {
-          "date": "2026-08-07",
-          "pnl": -734.02
-        },
-        {
-          "date": "2026-08-11",
-          "pnl": -12272.84
-        }
-      ],
+      "daily_series": [],
       "last_7_days_series": [
         {
           "date": "2026-07-31",
@@ -1976,229 +475,8 @@
           "pnl": -12272.84
         }
       ],
-      "month_over_month_pct": -149.73,
-      "trade_book": [
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY 24450.0PE",
-          "entry": "38.1",
-          "exit": "30.85",
-          "qty": "260",
-          "pnl": -2131.23,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY2681124450PE",
-          "entry": "38.25",
-          "exit": "30.75",
-          "qty": "390",
-          "pnl": -3001.79,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY 24500.0PE",
-          "entry": "73.0",
-          "exit": "65.5",
-          "qty": "130",
-          "pnl": -1222.77,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY2681124400PE",
-          "entry": "31.95",
-          "exit": "19.1",
-          "qty": "455",
-          "pnl": -5917.05,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY 24550.0PE",
-          "entry": "108.7",
-          "exit": "105.15",
-          "qty": "65",
-          "pnl": -363.67,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "33.5",
-          "exit": "32.15",
-          "qty": "390",
-          "pnl": -603.51,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY 24600.0PE",
-          "entry": "122.0",
-          "exit": "127.0",
-          "qty": "65",
-          "pnl": 177.55,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "31.15",
-          "exit": "31.45",
-          "qty": "455",
-          "pnl": 55.61,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "152.0",
-          "exit": "144.75",
-          "qty": "65",
-          "pnl": -637.3,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "30.65",
-          "exit": "28.55",
-          "qty": "455",
-          "pnl": -1033.76,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "147.0",
-          "exit": "142.7",
-          "qty": "65",
-          "pnl": -442.85,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "29.0",
-          "exit": "27.7",
-          "qty": "455",
-          "pnl": -668.69,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "154.05",
-          "exit": "134.2",
-          "qty": "65",
-          "pnl": -1452.28,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "31.75",
-          "exit": "27.35",
-          "qty": "455",
-          "pnl": -2079.44,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "29.05",
-          "exit": "23.4",
-          "qty": "325",
-          "pnl": -2072.67,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "29.0",
-          "exit": "23.15",
-          "qty": "455",
-          "pnl": -2734.98,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY 24600.0CE",
-          "entry": "56.3",
-          "exit": "61.0",
-          "qty": "130",
-          "pnl": 469.12,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "35.9",
-          "exit": "39.0",
-          "qty": "390",
-          "pnl": 1126.46,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY 24550.0CE",
-          "entry": "71.0",
-          "exit": "81.0",
-          "qty": "130",
-          "pnl": 1129.74,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "28.25",
-          "exit": "32.75",
-          "qty": "520",
-          "pnl": 2253.67,
-          "result": "WIN"
-        }
-      ]
+      "month_over_month_pct": 100.0,
+      "trade_book": []
     },
     "T3_5L": {
       "tier": "T3_5L",
@@ -2220,46 +498,21 @@
         "web_pnl": 0
       },
       "month": {
-        "total_pnl": -21692.03,
-        "total_trades": 20,
-        "wins": 6,
-        "losses": 14,
-        "win_rate": 30.0,
-        "best_trade": 2541.28,
-        "worst_trade": -6755.6,
-        "avg_winner": 994.7,
-        "avg_loser": -1975.73,
-        "total_profit": 5968.22,
-        "total_loss": 27660.25,
-        "s2_pnl": -6693.29,
-        "web_pnl": -14998.74
+        "total_pnl": 0,
+        "total_trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "best_trade": 0,
+        "worst_trade": 0,
+        "avg_winner": 0,
+        "avg_loser": 0,
+        "total_profit": 0,
+        "total_loss": 0,
+        "s2_pnl": 0,
+        "web_pnl": 0
       },
-      "daily_series": [
-        {
-          "date": "2026-08-03",
-          "pnl": 5720.37
-        },
-        {
-          "date": "2026-08-04",
-          "pnl": -5980.67
-        },
-        {
-          "date": "2026-08-05",
-          "pnl": -3822.04
-        },
-        {
-          "date": "2026-08-06",
-          "pnl": -3101.11
-        },
-        {
-          "date": "2026-08-07",
-          "pnl": -904.76
-        },
-        {
-          "date": "2026-08-11",
-          "pnl": -13603.82
-        }
-      ],
+      "daily_series": [],
       "last_7_days_series": [
         {
           "date": "2026-07-31",
@@ -2290,229 +543,8 @@
           "pnl": -13603.82
         }
       ],
-      "month_over_month_pct": -144.89,
-      "trade_book": [
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY 24450.0PE",
-          "entry": "38.1",
-          "exit": "30.85",
-          "qty": "260",
-          "pnl": -2131.23,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY2681124450PE",
-          "entry": "38.25",
-          "exit": "30.75",
-          "qty": "455",
-          "pnl": -3494.22,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY 24500.0PE",
-          "entry": "73.0",
-          "exit": "65.5",
-          "qty": "130",
-          "pnl": -1222.77,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY2681124400PE",
-          "entry": "31.95",
-          "exit": "19.1",
-          "qty": "520",
-          "pnl": -6755.6,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY 24550.0PE",
-          "entry": "108.7",
-          "exit": "105.15",
-          "qty": "65",
-          "pnl": -363.67,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "33.5",
-          "exit": "32.15",
-          "qty": "520",
-          "pnl": -788.94,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY 24600.0PE",
-          "entry": "122.0",
-          "exit": "127.0",
-          "qty": "65",
-          "pnl": 177.55,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "31.15",
-          "exit": "31.45",
-          "qty": "520",
-          "pnl": 70.3,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "152.0",
-          "exit": "144.75",
-          "qty": "65",
-          "pnl": -637.3,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "30.65",
-          "exit": "28.55",
-          "qty": "520",
-          "pnl": -1174.7,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "147.0",
-          "exit": "142.7",
-          "qty": "65",
-          "pnl": -442.85,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "29.0",
-          "exit": "27.7",
-          "qty": "585",
-          "pnl": -846.26,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "154.05",
-          "exit": "134.2",
-          "qty": "65",
-          "pnl": -1452.28,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "31.75",
-          "exit": "27.35",
-          "qty": "520",
-          "pnl": -2369.76,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "29.05",
-          "exit": "23.4",
-          "qty": "390",
-          "pnl": -2477.76,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "29.0",
-          "exit": "23.15",
-          "qty": "585",
-          "pnl": -3502.91,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY 24600.0CE",
-          "entry": "56.3",
-          "exit": "61.0",
-          "qty": "195",
-          "pnl": 727.28,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "35.9",
-          "exit": "39.0",
-          "qty": "455",
-          "pnl": 1322.07,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY 24550.0CE",
-          "entry": "71.0",
-          "exit": "81.0",
-          "qty": "130",
-          "pnl": 1129.74,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "28.25",
-          "exit": "32.75",
-          "qty": "585",
-          "pnl": 2541.28,
-          "result": "WIN"
-        }
-      ]
+      "month_over_month_pct": 100.0,
+      "trade_book": []
     },
     "T4L": {
       "tier": "T4L",
@@ -2534,46 +566,21 @@
         "web_pnl": 0
       },
       "month": {
-        "total_pnl": -24588.87,
-        "total_trades": 20,
-        "wins": 6,
-        "losses": 14,
-        "win_rate": 30.0,
-        "best_trade": 2828.89,
-        "worst_trade": -7594.15,
-        "avg_winner": 1077.69,
-        "avg_loser": -2218.21,
-        "total_profit": 6466.12,
-        "total_loss": 31054.99,
-        "s2_pnl": -7619.38,
-        "web_pnl": -16969.49
+        "total_pnl": 0,
+        "total_trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "best_trade": 0,
+        "worst_trade": 0,
+        "avg_winner": 0,
+        "avg_loser": 0,
+        "total_profit": 0,
+        "total_loss": 0,
+        "s2_pnl": 0,
+        "web_pnl": 0
       },
-      "daily_series": [
-        {
-          "date": "2026-08-03",
-          "pnl": 6203.59
-        },
-        {
-          "date": "2026-08-04",
-          "pnl": -6769.73
-        },
-        {
-          "date": "2026-08-05",
-          "pnl": -4112.36
-        },
-        {
-          "date": "2026-08-06",
-          "pnl": -3471.77
-        },
-        {
-          "date": "2026-08-07",
-          "pnl": -982.8
-        },
-        {
-          "date": "2026-08-11",
-          "pnl": -15455.8
-        }
-      ],
+      "daily_series": [],
       "last_7_days_series": [
         {
           "date": "2026-07-31",
@@ -2604,229 +611,8 @@
           "pnl": -15455.8
         }
       ],
-      "month_over_month_pct": -145.19,
-      "trade_book": [
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY 24450.0PE",
-          "entry": "38.1",
-          "exit": "30.85",
-          "qty": "325",
-          "pnl": -2652.23,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY2681124450PE",
-          "entry": "38.25",
-          "exit": "30.75",
-          "qty": "520",
-          "pnl": -3986.65,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY 24500.0PE",
-          "entry": "73.0",
-          "exit": "65.5",
-          "qty": "130",
-          "pnl": -1222.77,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY2681124400PE",
-          "entry": "31.95",
-          "exit": "19.1",
-          "qty": "585",
-          "pnl": -7594.15,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY 24550.0PE",
-          "entry": "108.7",
-          "exit": "105.15",
-          "qty": "65",
-          "pnl": -363.67,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "33.5",
-          "exit": "32.15",
-          "qty": "585",
-          "pnl": -881.66,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY 24600.0PE",
-          "entry": "122.0",
-          "exit": "127.0",
-          "qty": "65",
-          "pnl": 177.55,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "31.15",
-          "exit": "31.45",
-          "qty": "585",
-          "pnl": 84.98,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "152.0",
-          "exit": "144.75",
-          "qty": "65",
-          "pnl": -637.3,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "30.65",
-          "exit": "28.55",
-          "qty": "650",
-          "pnl": -1456.58,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "147.0",
-          "exit": "142.7",
-          "qty": "65",
-          "pnl": -442.85,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "29.0",
-          "exit": "27.7",
-          "qty": "650",
-          "pnl": -935.04,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "154.05",
-          "exit": "134.2",
-          "qty": "65",
-          "pnl": -1452.28,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "31.75",
-          "exit": "27.35",
-          "qty": "585",
-          "pnl": -2660.08,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "29.05",
-          "exit": "23.4",
-          "qty": "455",
-          "pnl": -2882.85,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "29.0",
-          "exit": "23.15",
-          "qty": "650",
-          "pnl": -3886.88,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY 24600.0CE",
-          "entry": "56.3",
-          "exit": "61.0",
-          "qty": "195",
-          "pnl": 727.28,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "35.9",
-          "exit": "39.0",
-          "qty": "520",
-          "pnl": 1517.68,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY 24550.0CE",
-          "entry": "71.0",
-          "exit": "81.0",
-          "qty": "130",
-          "pnl": 1129.74,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "28.25",
-          "exit": "32.75",
-          "qty": "650",
-          "pnl": 2828.89,
-          "result": "WIN"
-        }
-      ]
+      "month_over_month_pct": 100.0,
+      "trade_book": []
     },
     "T4_5L": {
       "tier": "T4_5L",
@@ -2848,46 +634,21 @@
         "web_pnl": 0
       },
       "month": {
-        "total_pnl": -26695.01,
-        "total_trades": 20,
-        "wins": 6,
-        "losses": 14,
-        "win_rate": 30.0,
-        "best_trade": 3404.11,
-        "worst_trade": -8432.69,
-        "avg_winner": 1352.16,
-        "avg_loser": -2486.28,
-        "total_profit": 8112.96,
-        "total_loss": 34807.97,
-        "s2_pnl": -8198.02,
-        "web_pnl": -18496.99
+        "total_pnl": 0,
+        "total_trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "best_trade": 0,
+        "worst_trade": 0,
+        "avg_winner": 0,
+        "avg_loser": 0,
+        "total_profit": 0,
+        "total_loss": 0,
+        "s2_pnl": 0,
+        "web_pnl": 0
       },
-      "daily_series": [
-        {
-          "date": "2026-08-03",
-          "pnl": 7821.05
-        },
-        {
-          "date": "2026-08-04",
-          "pnl": -7153.7
-        },
-        {
-          "date": "2026-08-05",
-          "pnl": -4402.68
-        },
-        {
-          "date": "2026-08-06",
-          "pnl": -3701.5
-        },
-        {
-          "date": "2026-08-07",
-          "pnl": -1362.62
-        },
-        {
-          "date": "2026-08-11",
-          "pnl": -17895.56
-        }
-      ],
+      "daily_series": [],
       "last_7_days_series": [
         {
           "date": "2026-07-31",
@@ -2918,229 +679,8 @@
           "pnl": -17895.56
         }
       ],
-      "month_over_month_pct": -142.32,
-      "trade_book": [
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY 24450.0PE",
-          "entry": "38.1",
-          "exit": "30.85",
-          "qty": "390",
-          "pnl": -3173.24,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY2681124450PE",
-          "entry": "38.25",
-          "exit": "30.75",
-          "qty": "585",
-          "pnl": -4479.08,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY 24500.0PE",
-          "entry": "73.0",
-          "exit": "65.5",
-          "qty": "195",
-          "pnl": -1810.55,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY2681124400PE",
-          "entry": "31.95",
-          "exit": "19.1",
-          "qty": "650",
-          "pnl": -8432.69,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY 24550.0PE",
-          "entry": "108.7",
-          "exit": "105.15",
-          "qty": "130",
-          "pnl": -680.15,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "33.5",
-          "exit": "32.15",
-          "qty": "650",
-          "pnl": -974.38,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY 24600.0PE",
-          "entry": "122.0",
-          "exit": "127.0",
-          "qty": "65",
-          "pnl": 177.55,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "31.15",
-          "exit": "31.45",
-          "qty": "715",
-          "pnl": 114.36,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "152.0",
-          "exit": "144.75",
-          "qty": "65",
-          "pnl": -637.3,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "30.65",
-          "exit": "28.55",
-          "qty": "715",
-          "pnl": -1597.52,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "147.0",
-          "exit": "142.7",
-          "qty": "65",
-          "pnl": -442.85,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "29.0",
-          "exit": "27.7",
-          "qty": "715",
-          "pnl": -1023.83,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "154.05",
-          "exit": "134.2",
-          "qty": "65",
-          "pnl": -1452.28,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "31.75",
-          "exit": "27.35",
-          "qty": "650",
-          "pnl": -2950.4,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "29.05",
-          "exit": "23.4",
-          "qty": "455",
-          "pnl": -2882.85,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "29.0",
-          "exit": "23.15",
-          "qty": "715",
-          "pnl": -4270.85,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY 24600.0CE",
-          "entry": "56.3",
-          "exit": "61.0",
-          "qty": "260",
-          "pnl": 985.44,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "35.9",
-          "exit": "39.0",
-          "qty": "585",
-          "pnl": 1713.29,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY 24550.0CE",
-          "entry": "71.0",
-          "exit": "81.0",
-          "qty": "195",
-          "pnl": 1718.21,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "28.25",
-          "exit": "32.75",
-          "qty": "780",
-          "pnl": 3404.11,
-          "result": "WIN"
-        }
-      ]
+      "month_over_month_pct": 100.0,
+      "trade_book": []
     },
     "T5L": {
       "tier": "T5L",
@@ -3162,46 +702,21 @@
         "web_pnl": 0
       },
       "month": {
-        "total_pnl": -30306.79,
-        "total_trades": 20,
-        "wins": 6,
-        "losses": 14,
-        "win_rate": 30.0,
-        "best_trade": 3691.72,
-        "worst_trade": -10109.79,
-        "avg_winner": 1472.6,
-        "avg_loser": -2795.89,
-        "total_profit": 8835.61,
-        "total_loss": 39142.4,
-        "s2_pnl": -8378.37,
-        "web_pnl": -21928.42
+        "total_pnl": 0,
+        "total_trades": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0,
+        "best_trade": 0,
+        "worst_trade": 0,
+        "avg_winner": 0,
+        "avg_loser": 0,
+        "total_profit": 0,
+        "total_loss": 0,
+        "s2_pnl": 0,
+        "web_pnl": 0
       },
-      "daily_series": [
-        {
-          "date": "2026-08-03",
-          "pnl": 8304.27
-        },
-        {
-          "date": "2026-08-04",
-          "pnl": -8326.74
-        },
-        {
-          "date": "2026-08-05",
-          "pnl": -4983.32
-        },
-        {
-          "date": "2026-08-06",
-          "pnl": -4020.0
-        },
-        {
-          "date": "2026-08-07",
-          "pnl": -1215.91
-        },
-        {
-          "date": "2026-08-11",
-          "pnl": -20065.09
-        }
-      ],
+      "daily_series": [],
       "last_7_days_series": [
         {
           "date": "2026-07-31",
@@ -3232,229 +747,8 @@
           "pnl": -20065.09
         }
       ],
-      "month_over_month_pct": -143.33,
-      "trade_book": [
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY 24450.0PE",
-          "entry": "38.1",
-          "exit": "30.85",
-          "qty": "390",
-          "pnl": -3173.24,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "13:05",
-          "symbol": "NIFTY2681124450PE",
-          "entry": "38.25",
-          "exit": "30.75",
-          "qty": "650",
-          "pnl": -4971.51,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY 24500.0PE",
-          "entry": "73.0",
-          "exit": "65.5",
-          "qty": "195",
-          "pnl": -1810.55,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-11",
-          "time": "12:45",
-          "symbol": "NIFTY2681124400PE",
-          "entry": "31.95",
-          "exit": "19.1",
-          "qty": "780",
-          "pnl": -10109.79,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY 24550.0PE",
-          "entry": "108.7",
-          "exit": "105.15",
-          "qty": "130",
-          "pnl": -680.15,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "13:25",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "33.5",
-          "exit": "32.15",
-          "qty": "715",
-          "pnl": -1067.1,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY 24600.0PE",
-          "entry": "122.0",
-          "exit": "127.0",
-          "qty": "130",
-          "pnl": 402.3,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-07",
-          "time": "12:50",
-          "symbol": "NIFTY2681124300PE",
-          "entry": "31.15",
-          "exit": "31.45",
-          "qty": "780",
-          "pnl": 129.04,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "152.0",
-          "exit": "144.75",
-          "qty": "65",
-          "pnl": -637.3,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "10:00",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "30.65",
-          "exit": "28.55",
-          "qty": "780",
-          "pnl": -1738.45,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "147.0",
-          "exit": "142.7",
-          "qty": "65",
-          "pnl": -442.85,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-06",
-          "time": "09:35",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "29.0",
-          "exit": "27.7",
-          "qty": "845",
-          "pnl": -1201.4,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "154.05",
-          "exit": "134.2",
-          "qty": "65",
-          "pnl": -1452.28,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-05",
-          "time": "11:30",
-          "symbol": "NIFTY2681125000CE",
-          "entry": "31.75",
-          "exit": "27.35",
-          "qty": "780",
-          "pnl": -3531.04,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY 24650.0CE",
-          "entry": "29.05",
-          "exit": "23.4",
-          "qty": "520",
-          "pnl": -3287.95,
-          "result": "LOSS"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-04",
-          "time": "10:10",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "29.0",
-          "exit": "23.15",
-          "qty": "845",
-          "pnl": -5038.79,
-          "result": "LOSS"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY 24600.0CE",
-          "entry": "56.3",
-          "exit": "61.0",
-          "qty": "260",
-          "pnl": 985.44,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "12:20",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "35.9",
-          "exit": "39.0",
-          "qty": "650",
-          "pnl": 1908.9,
-          "result": "WIN"
-        },
-        {
-          "engine": "S2-ORION (resized)",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY 24550.0CE",
-          "entry": "71.0",
-          "exit": "81.0",
-          "qty": "195",
-          "pnl": 1718.21,
-          "result": "WIN"
-        },
-        {
-          "engine": "ORION WEB",
-          "date": "2026-08-03",
-          "time": "10:36",
-          "symbol": "NIFTY2680424650CE",
-          "entry": "28.25",
-          "exit": "32.75",
-          "qty": "845",
-          "pnl": 3691.72,
-          "result": "WIN"
-        }
-      ]
+      "month_over_month_pct": 100.0,
+      "trade_book": []
     }
   }
 }
