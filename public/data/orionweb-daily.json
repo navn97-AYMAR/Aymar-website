@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T15:45:01",
-  "market_date": "2026-09-29",
+  "generated_at": "2026-10-05T18:37:45",
+  "market_date": "2026-10-05",
   "tiers": {
     "T50K": {
       "tier": "T50K",
@@ -67,7 +67,7 @@
           "pnl": -2628.57
         }
       ],
-      "month_over_month_pct": 100.0,
+      "month_over_month_pct": null,
       "trade_book": []
     },
     "T75K": {
@@ -135,7 +135,7 @@
           "pnl": -2628.57
         }
       ],
-      "month_over_month_pct": 100.0,
+      "month_over_month_pct": null,
       "trade_book": []
     },
     "T1L": {
@@ -203,7 +203,7 @@
           "pnl": -3959.55
         }
       ],
-      "month_over_month_pct": 100.0,
+      "month_over_month_pct": null,
       "trade_book": []
     },
     "T1_5L": {
@@ -271,7 +271,7 @@
           "pnl": -5811.53
         }
       ],
-      "month_over_month_pct": 100.0,
+      "month_over_month_pct": null,
       "trade_book": []
     },
     "T2L": {
@@ -339,7 +339,7 @@
           "pnl": -7142.51
         }
       ],
-      "month_over_month_pct": 100.0,
+      "month_over_month_pct": null,
       "trade_book": []
     },
     "T2_5L": {
@@ -407,7 +407,7 @@
           "pnl": -9833.06
         }
       ],
-      "month_over_month_pct": 100.0,
+      "month_over_month_pct": null,
       "trade_book": []
     },
     "T3L": {
@@ -475,7 +475,7 @@
           "pnl": -12272.84
         }
       ],
-      "month_over_month_pct": 100.0,
+      "month_over_month_pct": null,
       "trade_book": []
     },
     "T3_5L": {
@@ -543,7 +543,7 @@
           "pnl": -13603.82
         }
       ],
-      "month_over_month_pct": 100.0,
+      "month_over_month_pct": null,
       "trade_book": []
     },
     "T4L": {
@@ -611,7 +611,7 @@
           "pnl": -15455.8
         }
       ],
-      "month_over_month_pct": 100.0,
+      "month_over_month_pct": null,
       "trade_book": []
     },
     "T4_5L": {
@@ -679,7 +679,7 @@
           "pnl": -17895.56
         }
       ],
-      "month_over_month_pct": 100.0,
+      "month_over_month_pct": null,
       "trade_book": []
     },
     "T5L": {
@@ -747,7 +747,7 @@
           "pnl": -20065.09
         }
       ],
-      "month_over_month_pct": 100.0,
+      "month_over_month_pct": null,
       "trade_book": []
     }
   }
